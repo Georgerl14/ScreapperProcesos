@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 
 public class TestRegistros {
 
-	File fichero = new File("AleatorioAlumno.dat");
+	File fichero = new File("AleatorioAlumno.txt");
 
 	@Test
 	public void testLeerEscribirRegistroIni() throws IOException {
@@ -43,7 +43,6 @@ public class TestRegistros {
 
 		Assert.assertEquals(true,
 				new Alumno(6, "Sanson", "ASDF", "ASDF", 12).equals(RegistrosAleatorios.leerRegistroPos(fichero, 1)));
-		resetear();
 	}
 
 	@Test
@@ -92,7 +91,7 @@ public class TestRegistros {
 	}
 
 	private void resetear() throws IOException {
-		try (FileWriter fileWriter = new FileWriter("AleatorioAlumno.dat", false)) {
+		try (FileWriter fileWriter = new FileWriter("AleatorioAlumno.txt", false)) {
 
 		}
 		;
