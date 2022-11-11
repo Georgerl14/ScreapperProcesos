@@ -12,13 +12,13 @@ import java.io.*;
 
 public class CrearXML {
 	public static void main(String args[]) throws IOException {
-		File fichero = new File("AleatorioAlumno.dat");
-		
+		File fichero = new File("ObjetoAlumno.dat");
+
 		Alumno alumno;
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-		
+
 		ObjectInputStream dataIS = new ObjectInputStream(new FileInputStream(fichero));
-		
+
 		try {
 			DocumentBuilder builder = factory.newDocumentBuilder();
 			DOMImplementation implementation = builder.getDOMImplementation();
@@ -28,10 +28,10 @@ public class CrearXML {
 			for (;;) {
 				try {
 					alumno = (Alumno) dataIS.readObject();
-					
+
 					Element raiz = document.createElement("persona");
 					document.getDocumentElement().appendChild(raiz);
-					
+
 					// id
 					CrearElemento("id", Integer.toString(alumno.getId()), raiz, document);
 					// Nombre
@@ -42,8 +42,7 @@ public class CrearXML {
 					CrearElemento("apellido2", alumno.getApellido2(), raiz, document);
 					// codigo postal
 					CrearElemento("codigoPostal", Integer.toString(alumno.getCodigoPostal()), raiz, document);
-				}
-				catch(Exception eo) {
+				} catch (Exception eo) {
 					break;
 				}
 			}
@@ -52,7 +51,7 @@ public class CrearXML {
 			Result result = new StreamResult(new java.io.File("Alumno.xml"));
 			Transformer transformer = TransformerFactory.newInstance().newTransformer();
 			transformer.transform(source, result);
-			
+
 			dataIS.close();
 		} catch (Exception e) {
 			System.out.println("Error");

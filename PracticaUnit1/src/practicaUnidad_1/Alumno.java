@@ -1,8 +1,10 @@
 package practicaUnidad_1;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Alumno {
+public class Alumno implements Serializable{
+	private static final long serialVersionUID = 1L;
 	private int id;
 	private String nombre;
 	private String apellido1;
