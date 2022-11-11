@@ -3,6 +3,10 @@ package practicaUnidad_1;
 import java.io.Serializable;
 import java.util.Objects;
 
+import javax.xml.bind.annotation.XmlType;
+
+@XmlType(propOrder = {"id", "nombre", "apellido1", "apellido2" ,"codigoPostal"})
+
 public class Alumno implements Serializable{
 	private static final long serialVersionUID = 1L;
 	private int id;
