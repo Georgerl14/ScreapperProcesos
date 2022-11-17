@@ -14,51 +14,79 @@ public class Main {
 	private static String termino = "";
 	private static String reemplazo = "";
 
+	private static String numeroOcurrencia = "";
+	private static String rutaReemplazo = "";
+
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		try {
+			switch (args.length) {
+			case 0:
+				while (generarMenu())
+					;
+				break;
 
-		switch (args.length) {
-		case 2:
-			ruta = args[0];
-			termino = args[1];
-			mostrarNumeroTermino();
-			break;
+			case 2:
+				ruta = args[0];
+				termino = args[1];
+				mostrarNumeroTermino(true);
+				introducirOpcion("a",4,5);
+				break;
 
-		case 3:
-			ruta = args[0];
-			termino = args[1];
-			reemplazo = args[2];
-			realizarReemplazar(false);
-			mostrarNumeroTermino();
-			break;
+			case 3:
+				ruta = args[0];
+				termino = args[1];
+				reemplazo = args[2];
+				realizarReemplazar(false);
+				break;
 
-		default:
-			while (generarMenu())
-				;
-			break;
+			default:
+				errorParametros();
+			}
+			System.exit(0);
+		} catch (FileNotFoundException e1) {
+			System.out.println("Error: Archivo no encontrado");
+			System.exit(1);
+		} catch (IOException e1) {
+			System.out.println("Error: El proceso no se pudo completar");
+			System.exit(2);
 		}
 	}
 
-	private static boolean generarMenu() {
+
+
+	private static boolean generarMenu() throws FileNotFoundException, IOException {
 		mostrarMenu();
 		return logicaMenu();
 	}
 
-	private static boolean logicaMenu() {
-		switch (introducirOpcion("Elegir opcion: ", 0, 4)) {
+	private static boolean logicaMenu() throws FileNotFoundException, IOException {
+		int minimo;
+		if (ruta != "" && termino != "") {
+			minimo = 4;
+		} else {
+			minimo = 2;
+		}
+		switch (introducirOpcion("Elegir opcion: ", 0, minimo)) {
+		case 0:
+			System.out.println("Programa cerrado");
+			return false;
+
 		case 1:
 			introducirTermino();
 			break;
+
 		case 2:
 			introducirRutaArchivo();
 			break;
+
 		case 3:
 			if (ruta != "" && termino != "") {
-				mostrarNumeroTermino();
+				mostrarNumeroTermino(false);
 			} else {
 				System.out.println("Error: Numeros entre 0 - 2");
 			}
 			break;
+
 		case 4:
 			if (ruta != "" && termino != "") {
 				introducirReemplazo();
@@ -67,9 +95,6 @@ public class Main {
 				System.out.println("Error: Numeros entre 0 - 2");
 			}
 			break;
-		case 0:
-			System.out.println("Programa cerrado");
-			return false;
 		}
 
 		System.out.println();
@@ -81,14 +106,13 @@ public class Main {
 		System.out.println("(2) Introducir ruta del archivo    | " + ruta);
 
 		if (!ruta.equals("") && !termino.equals("")) {
-			System.out.println("(3) Mostrar numero de ocurrencias");
-			System.out.println("(4) Realizar reemplazo");
+			System.out.println("(3) Mostrar numero de ocurrencias  | " + numeroOcurrencia);
+			System.out.println("(4) Realizar reemplazo             | " + rutaReemplazo);
 		}
 		System.out.println("(0) Salir");
 	}
 
 	private static void introducirRutaArchivo() {
-		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		File archivoRuta;
 		boolean salir = false;
@@ -108,12 +132,10 @@ public class Main {
 					salir = true;
 				}
 			}
-
 		} while (!new File(ruta).isFile() && !salir);
 	}
 
 	private static void introducirTermino() {
-		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		do {
 			System.out.print("Termino: ");
@@ -126,9 +148,10 @@ public class Main {
 		} while (termino.length() == 0);
 	}
 
-	private static void realizarReemplazar(Boolean texto) {
+	private static void realizarReemplazar(Boolean texto) throws FileNotFoundException, IOException {
+		rutaReemplazo = ruta.replaceFirst(".txt", "_NUEVO.txt");
 		try (BufferedReader br = new BufferedReader(new FileReader(ruta));
-				BufferedWriter bw = new BufferedWriter(new FileWriter(ruta + ".NUEVO.txt"));) {
+				BufferedWriter bw = new BufferedWriter(new FileWriter(rutaReemplazo));) {
 			String linea;
 			int numeroReemplazos = 0;
 			while ((linea = br.readLine()) != null) {
@@ -147,15 +170,9 @@ public class Main {
 			if (texto) {
 				System.out.println("Proceso realizado");
 			} else {
-				System.out.println("Ruta: " + ruta + ".NUEVO.txt");
+				System.out.println("Ruta del reemplazo: " + rutaReemplazo);
 				System.out.println("Numero de reemplazos: " + numeroReemplazos);
 			}
-		} catch (FileNotFoundException e) {
-			System.out.println("Error: No se termino el reemplazo");
-		} catch (IOException e1) {
-			System.out.println("Error: No se termino el reemplazo");
-		} catch (Exception e) {
-			System.out.println("Error: No se termino el reemplazo");
 		}
 
 	}
@@ -182,7 +199,7 @@ public class Main {
 		}
 	}
 
-	private static int mostrarNumeroTermino() {
+	private static int mostrarNumeroTermino(boolean texto) throws FileNotFoundException, IOException {
 		int contador = 0;
 		try (BufferedReader br = new BufferedReader(new FileReader(ruta));) {
 			String linea;
@@ -194,17 +211,26 @@ public class Main {
 					}
 				}
 			}
-			System.out.println("Numero de palabras en el texto: " + contador);
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			System.out.println("Error: Ruta del archivo no encontrada");
-		} catch (IOException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
+			if (texto) {
+				System.out.println("Numero de ocurrencias: " + contador);
+			} else {
+				numeroOcurrencia = String.valueOf(contador);
+			}
 		}
 		return contador;
 	}
 
+	private static void errorParametros() {
+		System.out.println("Error: La cantidad de parametros no es adecuada");
+		System.out.println("Opcion 1: java Main.java \n          Abre un menu para seleccionar opciones");
+		System.out.println();
+		System.out.println("Opcion 2: java Main.java \"ruta\" \"termino\" \n"
+				+ "          Muestro la cantidad de ocurrencias del termino");
+		System.out.println();
+		System.out.println("Opcion 3: java Main.java \"ruta\" \"termino\" \"reemplazo\"  \n"
+				+ "          Realiza el reemplazo de todas las ocurrencias del termino");
+	}
+	
 	private static int introducirOpcion(String texto, int minimo, int maximo) {
 		Scanner sc = new Scanner(System.in);
 		int numero = -1;
@@ -220,7 +246,6 @@ public class Main {
 				System.out.println("Error: Solo se permiten numero enteros");
 			}
 		} while (numero == -1);
-
 		return numero;
 	}
 
