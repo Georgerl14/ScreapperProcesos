@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Escuela>
+    <Clase>
+        <Alumno>
+            <id>1</id>
+            <nombre>A</nombre>
+            <apellido1>B</apellido1>
+            <apellido2>C</apellido2>
+            <codigoPostal>3</codigoPostal>
+        </Alumno>
+        <Alumno>
+            <id>2</id>
+            <nombre>A</nombre>
+            <apellido1>B</apellido1>
+            <apellido2>C</apellido2>
+            <codigoPostal>4</codigoPostal>
+        </Alumno>
+    </Clase>
+</Escuela>
