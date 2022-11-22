@@ -14,7 +14,7 @@ import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.DefaultHandler;
 
-import practicaUnidad_1.Alumno;
+import jaxb.Alumno;
 
 public class PruebaSax1 {
 	

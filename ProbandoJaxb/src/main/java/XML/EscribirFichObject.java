@@ -8,7 +8,7 @@ import java.io.Serializable;
 
 import javax.xml.parsers.DocumentBuilderFactory;
 
-import practicaUnidad_1.Alumno;
+import jaxb.Alumno;
 import practicaUnidad_1.RegistrosAleatorios;
 
 public class EscribirFichObject {

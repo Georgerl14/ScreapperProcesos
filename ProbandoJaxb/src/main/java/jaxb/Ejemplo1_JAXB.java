@@ -11,11 +11,9 @@ import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 
-import practicaUnidad_1.Alumno;
-
 public class Ejemplo1_JAXB {
 
-	private static final String MIARCHIVO_XML = "./Alumno.xml";
+	private static final String MIARCHIVO_XML = "Escuela.xml";
 
 	public static void main(String[] args) throws JAXBException, IOException {
 		// Se crea la lista de alumnos
@@ -54,17 +52,17 @@ public class Ejemplo1_JAXB {
 
 		// Utilizamos el m�todo unmarshal, para obtener datos de un Reader
 		Escuela escuela2 = (Escuela) unmars.unmarshal(new FileReader(MIARCHIVO_XML));
-
+		
 		// Recuperamos el array list y visualizamos
 		System.out.println("Alumnos de la escuela: ");
 
 		ArrayList<Alumno> lista = escuela2.getListaAlumno();
-		for (Alumno alumno : lista) {
-			System.out.println("\tId del alumno: " + alumno.getId() + 
-					"\nnombre: " + alumno.getNombre() +
-					"\napellido: "+ alumno.getApellido1() +
-					"\napellido2: " + alumno.getApellido2() +
-					"\ncodigo postal: "+alumno.getCodigoPostal());
+		for (Alumno alumnos : lista) {
+			System.out.println("\tId del alumno: " + alumnos.getId() + 
+					"\nnombre: " + alumnos.getNombre() +
+					"\napellido: "+ alumnos.getApellido1() +
+					"\napellido2: " + alumnos.getApellido2() +
+					"\ncodigo postal: "+alumnos.getCodigoPostal());
 		}
 	}
 }

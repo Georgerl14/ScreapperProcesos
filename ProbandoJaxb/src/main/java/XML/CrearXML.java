@@ -2,7 +2,7 @@ package XML;
 
 import org.w3c.dom.*;
 
-import practicaUnidad_1.Alumno;
+import jaxb.Alumno;
 
 import javax.xml.parsers.*;
 import javax.xml.transform.*;

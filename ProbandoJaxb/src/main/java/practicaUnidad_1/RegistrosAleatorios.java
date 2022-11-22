@@ -5,6 +5,8 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 
+import jaxb.Alumno;
+
 public class RegistrosAleatorios {
 	private static int espacio = 92;
 

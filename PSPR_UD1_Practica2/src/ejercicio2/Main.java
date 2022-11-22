@@ -14,9 +14,8 @@ import java.util.Scanner;
 public class Main {
 	public static List<File> listaArchivos = new ArrayList<File>();
 
-	public static void main(String[] args) throws IOException, InterruptedException {
-		while (generarMenu())
-			;
+	public static void main(String[] args) throws IOException {
+		while (generarMenu());
 	}
 
 	private static void addArchivo() {
@@ -55,39 +54,22 @@ public class Main {
 		}
 	}
 
-	private static void reemplazarCadena() throws IOException {
-		Scanner sc = new Scanner(System.in);
-		String termino = introducirTermino();
-		System.out.print("Reemplazo: ");
-		String reemplazo = sc.nextLine();
-		
-		ProcessBuilder pb = new ProcessBuilder();
-		pb.directory(new File("..\\PSPR_UD1_Practica2\\src\\ejercicio1"));
-
-		for (int i = 0; i < listaArchivos.size(); i++) {
-			pb.command(Arrays.asList("java", "Main.java", 
-					listaArchivos.get(i).getAbsolutePath(), termino, reemplazo));
-			Process salida = pb.start();
-
-			try (BufferedReader br = new BufferedReader(new InputStreamReader(salida.getInputStream()));
-			BufferedWriter bw = new BufferedWriter(new FileWriter("..\\PSPR_UD1_Practica2\\src\\ejercicio2\\resumen.log",false));
-			){
-			System.out.println(listaArchivos.get(i).getName());
-			String linea;
-			
-			while((linea = br.readLine()) != null) {
-				System.out.println(linea);
-				bw.write(linea+"\n");
+	private static boolean listarArchivos() {
+		System.out.println();
+		if (listaArchivos.size() != 0) {
+			System.out.println("Archivos: ");
+			for (int i = 0; i < listaArchivos.size(); i++) {
+				System.out.println("(" + (i + 1) + ") " + listaArchivos.get(i).getName());
 			}
-			System.out.println();
-			bw.write("\n");
-		} catch(IOException e) {
-			
+			return true;
+		} else {
+			System.out.println("No se encontro ningun archivo para listar");
+			return false;
 		}
-		}
+
 	}
 
-	private static void numeroTermino() throws IOException, InterruptedException {
+	private static void numeroTermino() throws IOException {
 		String termino = introducirTermino();
 
 		System.out.println();
@@ -107,34 +89,40 @@ public class Main {
 		}
 	}
 
-	private static boolean listarArchivos() {
-		System.out.println();
-		if (listaArchivos.size() != 0) {
-			System.out.println("Archivos: ");
+	private static boolean reemplazarCadena() throws IOException {
+		Scanner sc = new Scanner(System.in);
+		String termino = introducirTermino();
+		System.out.print("Reemplazo: ");
+		String reemplazo = sc.nextLine();
+
+		ProcessBuilder pb = new ProcessBuilder();
+		pb.directory(new File("..\\PSPR_UD1_Practica2\\src\\ejercicio1"));
+
+		try (BufferedWriter bw = new BufferedWriter(
+				new FileWriter("..\\PSPR_UD1_Practica2\\src\\ejercicio2\\resumen.log"));) {
+
 			for (int i = 0; i < listaArchivos.size(); i++) {
-				System.out.println("(" + (i + 1) + ") " + listaArchivos.get(i).getName());
+				pb.command(
+						Arrays.asList("java", "Main.java", listaArchivos.get(i).getAbsolutePath(), termino, reemplazo));
+				Process salida = pb.start();
+
+				try (BufferedReader br = new BufferedReader(new InputStreamReader(salida.getInputStream()));) {
+					System.out.println(listaArchivos.get(i).getName());
+					String linea;
+
+					while ((linea = br.readLine()) != null) {
+						System.out.println(linea);
+						bw.write(linea + "\n");
+					}
+					System.out.println();
+					bw.write("\n");
+				}
 			}
-			return true;
-		} else {
-			System.out.println("No se encontro ningun archivo para listar");
-			return false;
 		}
-
+		return true;
 	}
 
-	private static void visualizarArchivo() throws IOException {
-		if (introducirOpcion("Desea visualizar algun archivo (1)Si (2)No: ", 1, 2) == 1) {
-
-			int numero = introducirOpcion("Numero de archivo: ", 1, listaArchivos.size());
-
-			ProcessBuilder pb = new ProcessBuilder();
-			pb.command(Arrays.asList("notepad.exe", listaArchivos.get(numero - 1).getAbsolutePath()));
-			Process salida = pb.start();
-		}
-
-	}
-
-	private static boolean generarMenu() throws IOException, InterruptedException {
+	private static boolean generarMenu() throws IOException {
 		mostrarMenu();
 		return logicaMenu();
 	}
@@ -150,8 +138,7 @@ public class Main {
 		System.out.println("(0) Cerrar");
 	}
 
-	private static boolean logicaMenu() throws IOException, InterruptedException {
-
+	private static boolean logicaMenu() throws IOException {
 		int maximo;
 		if (listaArchivos.size() != 0) {
 			maximo = 5;
@@ -195,7 +182,10 @@ public class Main {
 
 		case 5:
 			if (listaArchivos.size() != 0) {
-				reemplazarCadena();
+				if (reemplazarCadena()) {
+					visualizarFichero();
+				}
+
 			} else {
 				System.out.println("Error: Numeros entre 0 - 1");
 			}
@@ -204,6 +194,31 @@ public class Main {
 
 		System.out.println();
 		return true;
+	}
+
+	private static void visualizarFichero() {
+		try {
+			if (introducirOpcion("Desea visualizar el archivo (1)Si (2)No: ", 1, 2) == 1) {
+				ProcessBuilder pb = new ProcessBuilder();
+				pb.command(Arrays.asList("notepad.exe", "..\\PSPR_UD1_Practica2\\src\\ejercicio2\\resumen.log"));
+				Process salida = pb.start();
+			}
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	private static void visualizarArchivo() throws IOException {
+		if (introducirOpcion("Desea visualizar algun archivo (1)Si (2)No: ", 1, 2) == 1) {
+
+			int numero = introducirOpcion("Numero de archivo: ", 1, listaArchivos.size());
+
+			ProcessBuilder pb = new ProcessBuilder();
+			pb.command(Arrays.asList("notepad.exe", listaArchivos.get(numero - 1).getAbsolutePath()));
+			Process salida = pb.start();
+		}
+
 	}
 
 	private static int introducirOpcion(String texto, int minimo, int maximo) {

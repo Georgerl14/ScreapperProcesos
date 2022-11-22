@@ -7,6 +7,8 @@ import java.io.IOException;
 import org.junit.Assert;
 import org.junit.Test;
 
+import jaxb.Alumno;
+
 
 
 public class TestRegistros {

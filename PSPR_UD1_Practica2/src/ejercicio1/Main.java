@@ -21,15 +21,13 @@ public class Main {
 		try {
 			switch (args.length) {
 			case 0:
-				while (generarMenu())
-					;
+				while (generarMenu());
 				break;
 
 			case 2:
 				ruta = args[0];
 				termino = args[1];
 				mostrarNumeroTermino(true);
-				introducirOpcion("a",4,5);
 				break;
 
 			case 3:
@@ -51,8 +49,6 @@ public class Main {
 			System.exit(2);
 		}
 	}
-
-
 
 	private static boolean generarMenu() throws FileNotFoundException, IOException {
 		mostrarMenu();
@@ -204,11 +200,20 @@ public class Main {
 		try (BufferedReader br = new BufferedReader(new FileReader(ruta));) {
 			String linea;
 			while ((linea = br.readLine()) != null) {
-				String[] parte = linea.split(" ");
-				for (String buscar : parte) {
-					if (buscar.equals(termino)) {
-						contador++;
+				for (int i = 0; i < linea.length(); i++) {
+					char letraTermino = termino.charAt(0);
+					char letraActual = linea.charAt(i);
+					String palabra = " ";
+
+					if (!(i + termino.length() > linea.length())) {
+						if (letraTermino == letraActual) {
+							palabra = linea.substring(i, i + termino.length());
+							if (termino.equals(palabra)) {
+								contador++;
+							}
+						}
 					}
+
 				}
 			}
 			if (texto) {
@@ -230,7 +235,7 @@ public class Main {
 		System.out.println("Opcion 3: java Main.java \"ruta\" \"termino\" \"reemplazo\"  \n"
 				+ "          Realiza el reemplazo de todas las ocurrencias del termino");
 	}
-	
+
 	private static int introducirOpcion(String texto, int minimo, int maximo) {
 		Scanner sc = new Scanner(System.in);
 		int numero = -1;
