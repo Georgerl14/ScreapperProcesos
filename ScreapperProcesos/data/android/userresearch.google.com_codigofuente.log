@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://www.googleoptimize.com/optimize.js?id=OPT-KNBJ8P3" nonce="1SQwO0ouu2SphYA7cPfn-g"></script>
+    <meta charset="utf-8">
+    <meta content="initial-scale=1, minimum-scale=1, width=device-width" name="viewport">
+    <title>Google User Experience Research - Discover How UX Research Works</title>
+    <meta name="description" content="We’d love to know about your Google user experience. Sign up to participate in UX research and influence Google products, whether you use them or not.">
+    <meta name="referrer" content="no-referrer" />
+    <link rel="canonical" href="https://userresearch.google.com/" />
+      <link rel="alternate" hreflang="x-default"
+        href="https://userresearch.google.com/" />
+      <link rel="alternate" hreflang="en"
+       href="https://userresearch.google.com/" />
+      <link rel="alternate" hreflang="bn"
+       href="https://userresearch.google.com/intl/bn_ALL" />
+      <link rel="alternate" hreflang="de"
+       href="https://userresearch.google.com/intl/de_ALL" />
+      <link rel="alternate" hreflang="en-GB"
+       href="https://userresearch.google.com/intl/en-GB_ALL" />
+      <link rel="alternate" hreflang="es"
+       href="https://userresearch.google.com/intl/es_ALL" />
+      <link rel="alternate" hreflang="es-419"
+       href="https://userresearch.google.com/intl/es-419_ALL" />
+      <link rel="alternate" hreflang="fr"
+       href="https://userresearch.google.com/intl/fr_ALL" />
+      <link rel="alternate" hreflang="hi"
+       href="https://userresearch.google.com/intl/hi_ALL" />
+      <link rel="alternate" hreflang="id"
+       href="https://userresearch.google.com/intl/id_ALL" />
+      <link rel="alternate" hreflang="it"
+       href="https://userresearch.google.com/intl/it_ALL" />
+      <link rel="alternate" hreflang="ja"
+       href="https://userresearch.google.com/intl/ja_ALL" />
+      <link rel="alternate" hreflang="pt-BR"
+       href="https://userresearch.google.com/intl/pt-BR_ALL" />
+      <link rel="alternate" hreflang="pt-PT"
+       href="https://userresearch.google.com/intl/pt-PT_ALL" />
+      <link rel="alternate" hreflang="sw"
+       href="https://userresearch.google.com/intl/sw_ALL" />
+      <link rel="alternate" hreflang="zh-CN"
+       href="https://userresearch.google.com/intl/zh-CN_ALL" />
+      <link rel="alternate" hreflang="zh-TW"
+       href="https://userresearch.google.com/intl/zh-TW_ALL" />
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://storage.googleapis.com/operating-anagram-8280/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://storage.googleapis.com/operating-anagram-8280/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://storage.googleapis.com/operating-anagram-8280/favicon-16x16.png">
+    <link rel="shortcut icon" href="https://storage.googleapis.com/operating-anagram-8280/favicon.ico">
+    <link href="//fonts.googleapis.com/css?family=Google+Sans+Text:400,500,700,400i,500i,700i|Google+Sans:400,500|Google+Sans+Display:400|Product+Sans:400&amp;lang=en" rel="stylesheet" nonce="1SQwO0ouu2SphYA7cPfn-g">
+    <!--custom-->   
+    <link href="/static/css/index.min.css?cache=ca8843f" rel="stylesheet" nonce="1SQwO0ouu2SphYA7cPfn-g">
+    <!-- Google Tag Manager -->
+    <script nonce="1SQwO0ouu2SphYA7cPfn-g">dataLayer = [{}]</script>
+    <script nonce="1SQwO0ouu2SphYA7cPfn-g">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-N6DCR34');</script>
+    <!-- End Google Tag Manager -->
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N6DCR34"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<header class="glue-header glue-header--single userresearch-header">
+
+  <div class="header-bar--desktop glue-header__bar glue-header__bar--desktop glue-header__drawer" aria-label="Navigation drawer">
+    <a href="#page-content" class="glue-header__skip-content">
+      <p class="glue-header__skip-content-text">Skip to main content</p>
+    </a>
+    
+    <div class="covid-banner">
+      <p>COVID-19 update: Google is prioritizing everyone's health and safety, this may impact UX Research. <a href="https://www.google.com/covid19/" rel="noopener" target="_blank">Learn More</a></p>
+    </div>
+    <div class="glue-header__tier">
+      
+      <!-- LOCK up-->
+      <div class="glue-header__container">
+        <div class="glue-header__lock-up">
+          <div class="glue-header__logo">
+            <a class="glue-header__logo-link" href="/" title="User Experience Research" aria-hidden="true" tabindex="-1">
+              <img src="/static/img/uxr-logo.svg" class="glue-header__logo-img" width="270" role="presentation" aria-hidden="true" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- LINK BAR-->
+      <div class="glue-header__container glue-header__container--flex-auto">
+        <nav class="glue-header__link-bar">
+          <ul id="drawer" class="glue-header__list">
+            <li aria-level="1" class="glue-header__item  glue-header--is-active">
+              <a class="glue-header__link" href="/" aria-current="page">Home</a>
+            </li>
+            <li aria-level="1" class="glue-header__item ">
+              <a class="glue-header__link" href="/faq" >FAQ</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      
+
+        
+<div class="language-selector">
+
+  <div class="mdc-select mdc-select-language mdc-select--outlined mdc-select--nolabel glue-select" id="select-floating-withdefault-1">
+    <input type="hidden" name="floating-withdefault-1" value="en">
+    <div class="mdc-select__anchor" role="button" aria-haspopup="listbox" aria-labelledby="selectedtext-floating-withdefault-1" tabindex="0" aria-disabled="false" aria-expanded="false">
+      <span id="selectedtext-floating-withdefault-1" class="mdc-select__selected-text"></span>
+      <span class="mdc-select__dropdown-icon">
+        <svg role="presentation" aria-hidden="true" class="mdc-select__dropdown-icon-graphic" viewBox="7 10 10 5">
+          <polygon class="mdc-select__dropdown-icon-inactive" stroke="none" fill-rule="evenodd" points="7 10 12 15 17 10"></polygon>
+          <polygon class="mdc-select__dropdown-icon-active" stroke="none" fill-rule="evenodd" points="7 15 12 10 17 15"></polygon>
+        </svg>
+      </span>
+      <span class="mdc-notched-outline mdc-notched-outline--no-label">
+        <span class="mdc-notched-outline__leading"></span>
+        <span class="mdc-notched-outline__trailing"></span>
+      </span>
+    </div>
+    <div class="mdc-select__menu mdc-menu mdc-menu-surface" role="listbox" style="transform-origin: center top; left: 0px; top: 56px; max-height: 244px;">
+      <ul class="mdc-list">
+        <li class="mdc-list-item mdc-list-item--selected" data-value="en" aria-selected="true" aria-posinset="1" aria-setsize="16" role="option" tabindex="0">
+          <span class="mdc-list-item__ripple"></span>
+          <span class="mdc-list-item__text">English</span>
+        </li>
+        <li class="mdc-list-item " data-value="bn"  aria-posinset="2" aria-setsize="16" role="option" tabindex="-1">
+          <span class="mdc-list-item__ripple"></span>
+          <span class="mdc-list-item__text">বাংলা</span>
+        </li>
+        <li class="mdc-list-item " data-value="de"  aria-posinset="3" aria-setsize="16" role="option" tabindex="-1">
+          <span class="mdc-list-item__ripple"></span>
+          <span class="mdc-list-item__text">Deutsch</span>
+        </li>
+        <li class="mdc-list-item " data-value="en-GB"  aria-posinset="4" aria-setsize="16" role="option" tabindex="-1">
+          <span class="mdc-list-item__ripple"></span>
+          <span class="mdc-list-item__text">English (United Kingdom)</span>
+        </li>
+        <li class="mdc-list-item " data-value="es"  aria-posinset="5" aria-setsize="16" role="option" tabindex="-1">
+          <span class="mdc-list-item__ripple"></span>
+          <span class="mdc-list-item__text">Español</span>
+        </li>
+        <li class="mdc-list-item " data-value="es-419"  aria-posinset="6" aria-setsize="16" role="option" tabindex="-1">
+          <span class="mdc-list-item__ripple"></span>
+          <span class="mdc-list-item__text">Español (Latinoamérica)</span>
+        </li>
+        <li class="mdc-list-item " data-value="fr"  aria-posinset="7" aria-setsize="16" role="option" tabindex="-1">
+          <span class="mdc-list-item__ripple"></span>
+          <span class="mdc-list-item__text">Français</span>
+        </li>
+        <li class="mdc-list-item " data-value="hi"  aria-posinset="8" aria-setsize="16" role="option" tabindex="-1">
+          <span class="mdc-list-item__ripple"></span>
+          <span class="mdc-list-item__text">हिन्दी</span>
+        </li>
+        <li class="mdc-list-item " data-value="id"  aria-posinset="9" aria-setsize="16" role="option" tabindex="-1">
+          <span class="mdc-list-item__ripple"></span>
+          <span class="mdc-list-item__text">Indonesia</span>
+        </li>
+        <li class="mdc-list-item " data-value="it"  aria-posinset="10" aria-setsize="16" role="option" tabindex="-1">
+          <span class="mdc-list-item__ripple"></span>
+          <span class="mdc-list-item__text">Italiano</span>
+        </li>
+        <li class="mdc-list-item " data-value="ja"  aria-posinset="11" aria-setsize="16" role="option" tabindex="-1">
+          <span class="mdc-list-item__ripple"></span>
+          <span class="mdc-list-item__text">日本語</span>
+        </li>
+        <li class="mdc-list-item " data-value="pt-BR"  aria-posinset="12" aria-setsize="16" role="option" tabindex="-1">
+          <span class="mdc-list-item__ripple"></span>
+          <span class="mdc-list-item__text">Português (Brasil)</span>
+        </li>
+        <li class="mdc-list-item " data-value="pt-PT"  aria-posinset="13" aria-setsize="16" role="option" tabindex="-1">
+          <span class="mdc-list-item__ripple"></span>
+          <span class="mdc-list-item__text">Português (Portugal)</span>
+        </li>
+        <li class="mdc-list-item " data-value="sw"  aria-posinset="14" aria-setsize="16" role="option" tabindex="-1">
+          <span class="mdc-list-item__ripple"></span>
+          <span class="mdc-list-item__text">Kiswahili</span>
+        </li>
+        <li class="mdc-list-item " data-value="zh-CN"  aria-posinset="15" aria-setsize="16" role="option" tabindex="-1">
+          <span class="mdc-list-item__ripple"></span>
+          <span class="mdc-list-item__text">中文 (简体)</span>
+        </li>
+        <li class="mdc-list-item " data-value="zh-TW"  aria-posinset="16" aria-setsize="16" role="option" tabindex="-1">
+          <span class="mdc-list-item__ripple"></span>
+          <span class="mdc-list-item__text">中文 (繁體)</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+      
+      <!-- CTA-->
+      <div class="glue-header__container glue-header__container--cta">
+        <div class="glue-header__cta">
+            
+
+        
+  <a href="https://google.qualtrics.com/jfe/form/SV_3NMIMtX0F2zkakR?referral_code=organic_main" data-context="header" aria-label="Sign up" class="glue-button glue-button--high-emphasis signup-button">Sign up</a>
+
+    
+    
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Mobile header placeholder -->
+  <div class="header-bar--mobile glue-header__bar glue-header__bar--mobile">
+    <div class="covid-banner--mobile">
+      <p>COVID-19 update: Google is prioritizing everyone's health and safety, this may impact UX Research. <a href="https://www.google.com/covid19/" rel="noopener" target="_blank">Learn More</a></p>
+    </div>
+    <div class="glue-header__tier">
+      <!-- LOCK up-->
+      <div class="glue-header__container">
+        <div class="glue-header__lock-up">
+          <div class="glue-header__hamburger glue-header__hamburger--first-tier">
+            <div class="glue-header__hamburger-wrapper">
+              <button type="button" class="glue-header__drawer-toggle-btn"
+                      aria-controls="drawer" aria-expanded="false" aria-label="Open the navigation drawer">
+                <svg role="presentation" aria-hidden="true" class="glue-icon glue-icon--24px">
+                  <use xlink:href="/static/img/glue-icons.svg#menu"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="glue-header__logo">
+            <img src="/static/img/uxr-logo.svg" class="glue-header__logo-img" width="240" role="presentation" aria-hidden="true" alt="">
+          </div>
+
+          <!-- SKIP -->
+          <a href="#page-content" class="glue-header__skip-content">
+            <p class="glue-header__skip-content-text">Jump to Content</p>
+          </a>
+        </div>
+      </div>
+      
+      <!-- CTA -->
+      <div class="glue-header__container">
+        <div class="glue-header__cta">
+            
+
+        
+  <a href="https://google.qualtrics.com/jfe/form/SV_3NMIMtX0F2zkakR?referral_code=organic_main" data-context="mobile nav" aria-label="Sign up" class="glue-button glue-button--high-emphasis signup-button">Sign up</a>
+
+    
+    
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="glue-header__drawer-backdrop"></div>
+</header>
+
+  <main class="glue-page b-demo-page glue-body" id="page-content">
+
+    <section class="glue-grid glue-mod-spacer-6-top glue-mod-spacer-4-bottom hero">
+      <div class="glue-grid__col glue-grid__col--span-6 hero-content">
+        <h1 class="h1-sm-mb">Help shape the future of Google</h1>
+        <h2 class="h3-sm-mb">Your feedback is important to us</h2>
+        
+        
+        <div class="html-content glue-mod-spacer-2-bottom"><p class="p1" style="font-size: 16px; line-height: normal; font-family: 'Google Sans'; color: #18191b;"><span style="color: #18191b; font-family: Google Sans;">We&rsquo;d love to know your thoughts, so we can keep making Google products that fit your needs. You&rsquo;ll get to influence things millions of people use every day, from email and productivity apps to tools for developers and educators.&nbsp;</span></p>
+<p class="p1" style="font-size: 16px; line-height: normal; font-family: 'Google Sans'; color: #18191b;"></p>
+<p class="p1" style="font-size: 16px; line-height: normal; font-family: 'Google Sans'; color: #18191b;"><span style="color: #18191b; font-family: Google Sans;">Even if you don&rsquo;t currently use Google products, you can still sign up for a chance to participate in our research. If one of our studies is a good fit for you, we&rsquo;ll get in touch with details and next steps. Most participants will get a thank-you gift.</span></p>
+<p class="p1" style="font-size: 16px; line-height: normal; font-family: 'Google Sans'; color: #18191b;"></p></div>
+
+        
+        <div class="glue-grid__col--span-2">
+            
+
+        
+  <a href="https://google.qualtrics.com/jfe/form/SV_3NMIMtX0F2zkakR?referral_code=organic_main" data-context="hero" aria-label="Sign up" class="glue-button glue-button--high-emphasis signup-button">Sign up</a>
+
+    
+    
+
+        </div>
+
+
+      </div>
+      <div class="glue-grid__col glue-grid__col--span-6 hero-image hero-video-wrap">
+          <iframe class="hero-embed-video" width="542"  height="305"  src="https://www.youtube.com/embed/D-O5gldkDIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+      </div>
+    </section>
+
+      
+
+<section class="page-section">
+  <h3 class="h3 glue-mod-spacer-5-top">Every study opportunity is:</h3>
+  <ul class="icons-list glue-mod-spacer-6-bottom">
+      <li class="icons-list-wrap">
+        <div class="icon-col">
+          <picture>
+            <source media="(min-width: 768px)" srcset="https://lh3.googleusercontent.com/3KsPWZG8Lh4gbjjO9bll03t1NN-dXiQgji6xtKXVh_ISuP_M-0XGDPQtBj9HrrWY46jVNX8oooGNyQbdfU0qTfajIG4GHvAJ8LfaTozec16uVqSdiSA=h60-w60"/>
+            <img alt="A face icon" srcset="https://lh3.googleusercontent.com/3KsPWZG8Lh4gbjjO9bll03t1NN-dXiQgji6xtKXVh_ISuP_M-0XGDPQtBj9HrrWY46jVNX8oooGNyQbdfU0qTfajIG4GHvAJ8LfaTozec16uVqSdiSA=h60-w60" />
+          </picture>
+        </div>
+        <div class="icon-text-col">
+          <p><p><strong>Open</strong> - Whether you&rsquo;re a newbie or an experienced Google product user, anyone can sign up to participate.</p></p>
+        </div>
+      </li>
+      <li class="icons-list-wrap">
+        <div class="icon-col">
+          <picture>
+            <source media="(min-width: 768px)" srcset="https://lh3.googleusercontent.com/BmNokiQJgs8d6fBDmsl3wTTpNdO7j2pN3onzpYNs-kf11V61SgIV37ptTGWVeOMPq1a482BGb48NYJJvvNy9qWi8f_vBmQDf0EL3HmwRoKhJKm3uUQ=h60-w60"/>
+            <img alt="A lock icon" srcset="https://lh3.googleusercontent.com/BmNokiQJgs8d6fBDmsl3wTTpNdO7j2pN3onzpYNs-kf11V61SgIV37ptTGWVeOMPq1a482BGb48NYJJvvNy9qWi8f_vBmQDf0EL3HmwRoKhJKm3uUQ=h60-w60" />
+          </picture>
+        </div>
+        <div class="icon-text-col">
+          <p><p><strong>Secure</strong> - You can trust us to never share your data with third parties.</p></p>
+        </div>
+      </li>
+      <li class="icons-list-wrap">
+        <div class="icon-col">
+          <picture>
+            <source media="(min-width: 768px)" srcset="https://lh3.googleusercontent.com/omB5aqNJNvsdXeHLCBgJp_Ks774ytg4VM79uLQAmOOe8IZKJWO_JIcpG9cjgyI_UzXZZ2MOQH-Dm-3dsrmMfucqXlLpewqSuZFpXrzJdVUxfgQh3Zw=h60-w60"/>
+            <img alt="Four arrows pointing outwards" srcset="https://lh3.googleusercontent.com/omB5aqNJNvsdXeHLCBgJp_Ks774ytg4VM79uLQAmOOe8IZKJWO_JIcpG9cjgyI_UzXZZ2MOQH-Dm-3dsrmMfucqXlLpewqSuZFpXrzJdVUxfgQh3Zw=h60-w60" />
+          </picture>
+        </div>
+        <div class="icon-text-col">
+          <p><p><strong>Flexible</strong> - Participation can be remote or in person. It&rsquo;s up to you.</p></p>
+        </div>
+      </li>
+      <li class="icons-list-wrap">
+        <div class="icon-col">
+          <picture>
+            <source media="(min-width: 768px)" srcset="https://lh3.googleusercontent.com/0B-6gKItsVChZuh_gZ7IX1c0bInsKrxFztTvPg1wj8co1RyjsZTWwGwy3uyMZqhzFbvQ1G5Jqbq5MjivXutAQMkestydh-Xt4w4FjsY33zxyGfd8aON_=h60-w64"/>
+            <img alt="A gift card icon" srcset="https://lh3.googleusercontent.com/0B-6gKItsVChZuh_gZ7IX1c0bInsKrxFztTvPg1wj8co1RyjsZTWwGwy3uyMZqhzFbvQ1G5Jqbq5MjivXutAQMkestydh-Xt4w4FjsY33zxyGfd8aON_=h60-w64" />
+          </picture>
+        </div>
+        <div class="icon-text-col">
+          <p><p><strong>Beneficial</strong> - After you participate you may receive a small gift, like a Visa or a retailer-specific gift card.</p></p>
+        </div>
+      </li>
+      <li class="icons-list-wrap">
+        <div class="icon-col">
+          <picture>
+            <source media="(min-width: 768px)" srcset="https://lh3.googleusercontent.com/sgzkzJido5k857svg1OP210GDoJo2TQ0eEq6FVdIVv73GjOFtJNw7hUeiZcy4q2ltqksrGUIX8scJiHF81We5fQewIuNwChXWqskZAJxIeFiC6q3jI4=h60-w61"/>
+            <img alt="Two chat boxes" srcset="https://lh3.googleusercontent.com/sgzkzJido5k857svg1OP210GDoJo2TQ0eEq6FVdIVv73GjOFtJNw7hUeiZcy4q2ltqksrGUIX8scJiHF81We5fQewIuNwChXWqskZAJxIeFiC6q3jI4=h60-w61" />
+          </picture>
+        </div>
+        <div class="icon-text-col">
+          <p><p><strong>Valuable</strong> - Your feedback will help us build better products for everyone.</p></p>
+        </div>
+      </li>
+  </ul>
+</section>
+
+
+
+      
+<section class="page-section">
+
+
+  <h2 class="h3 glue-mod-spacer-4-bottom">Here’s how to participate</h3>
+
+  <div class="content alternating-rows">
+
+
+    <div class="content--item glue-grid">
+
+      <div class="col image glue-grid__col--span-6">
+        <picture>
+          <source media="(min-width: 768px)" srcset="https://lh3.googleusercontent.com/4-NWKJ1zdL3ViZS3fh7LBLm27EtvoZNaUhkNcw5Mwm75lDDIjbwoljBi0dua9ABKfdUiYqEzeDvcFyJnG3sn2mWGw9XeO_a6vBIiRTLdnPJtde1gqus=h641-w1241"/>
+          <img alt="Person at a desk fills out a sign-up form on a tablet." srcset="https://lh3.googleusercontent.com/4-NWKJ1zdL3ViZS3fh7LBLm27EtvoZNaUhkNcw5Mwm75lDDIjbwoljBi0dua9ABKfdUiYqEzeDvcFyJnG3sn2mWGw9XeO_a6vBIiRTLdnPJtde1gqus=h641-w1241" />
+        </picture>
+      </div>
+
+      <div class="col glue-grid__col--span-6">
+        <h3 class="h4">
+            Sign up
+        </h3>
+        
+        <div class="html-content glue-grid">
+          <div class="html-content--item glue-mod-spacer-3-bottom glue-grid__col 
+              glue-grid__col--span-6
+          ">
+            <p class="p1" style="margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 16px; line-height: normal; font-family: Roboto; color: #4c5056;"><span style="color: #4c5056; font-family: Roboto;">Tell us a little bit about yourself by <a href="https://google.qualtrics.com/jfe/form/SV_3NMIMtX0F2zkakR?referral_code=organic_signup" aria-label="Filling out a form link; tell us more to determine if upcoming UXR studies would be a good match">filling out a form</a>. It&rsquo;ll help us determine if any of the upcoming UX research studies would be a good match.</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content--item glue-grid">
+
+      <div class="col image glue-grid__col--span-6">
+        <picture>
+          <source media="(min-width: 768px)" srcset="https://lh3.googleusercontent.com/WE_xh2Jp_5dtXUn197WMLPvSwE-bm6Y-Djvmy25g8i39P1Ra8qZf9f1JsrTjep_DnTfOd0u8jC2wndr_pvU3vXSRlEK6IZrwvQ1dzLpxtKftY5_MUTWa=h641-w1241"/>
+          <img alt="Person participates in a remote video call." srcset="https://lh3.googleusercontent.com/WE_xh2Jp_5dtXUn197WMLPvSwE-bm6Y-Djvmy25g8i39P1Ra8qZf9f1JsrTjep_DnTfOd0u8jC2wndr_pvU3vXSRlEK6IZrwvQ1dzLpxtKftY5_MUTWa=h641-w1241" />
+        </picture>
+      </div>
+
+      <div class="col glue-grid__col--span-6">
+        <h3 class="h4">
+            Join a research session
+        </h3>
+        
+        <div class="html-content glue-grid">
+          <div class="html-content--item glue-mod-spacer-3-bottom glue-grid__col 
+              glue-grid__col--span-6
+          ">
+            <p class="p1" style="margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: 400; font-stretch: normal; line-height: normal; font-family: Roboto; color: #4c5056;"><span style="color: #4c5056; font-family: Roboto;">If a study is a good fit for you, you&rsquo;ll get a follow-up questionnaire and details about what the study involves, including next steps and location.&nbsp;</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content--item glue-grid">
+
+      <div class="col image glue-grid__col--span-6">
+        <picture>
+          <source media="(min-width: 768px)" srcset="https://lh3.googleusercontent.com/hcW7KwFVwJkl2BiXa720vU7VKYpcNQGVO3LC7Pgv91dBIGFxQ5bCOwxmjcLwXj2xrc7wjUjEc2-bNpmcjEyN11RPb1eXNF3fkQhIxhyk_AGVUlN3UNU=h668-w1293"/>
+          <img alt="Person holds a wrapped gift box." srcset="https://lh3.googleusercontent.com/hcW7KwFVwJkl2BiXa720vU7VKYpcNQGVO3LC7Pgv91dBIGFxQ5bCOwxmjcLwXj2xrc7wjUjEc2-bNpmcjEyN11RPb1eXNF3fkQhIxhyk_AGVUlN3UNU=h668-w1293" />
+        </picture>
+      </div>
+
+      <div class="col glue-grid__col--span-6">
+        <h3 class="h4">
+            Accept our thanks
+        </h3>
+        
+        <div class="html-content glue-grid">
+          <div class="html-content--item glue-mod-spacer-3-bottom glue-grid__col 
+              glue-grid__col--span-6
+          ">
+            <p class="p1" style="margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 16px; line-height: normal; font-family: Roboto; color: #4c5056;"><span style="color: #4c5056; font-family: Roboto;">After completing the study, most participants will get a giftcard to thank them for their time.&nbsp;</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+
+
+    
+<div class="glue-grid demo-expansion-panels">
+</div>
+
+
+
+  </main>
+
+  <section class="glue-fullbleed body-bottom-row">
+    <div class="glue-page glue-body">
+    
+<section class="page-section">
+
+
+  <h2 class="h3 glue-mod-spacer-4-bottom"></h3>
+
+  <div class="content bottom-row">
+
+
+    <div class="content--item glue-grid 
+ 
+        bottom-row-no-image
+    ">
+
+
+      <div class="col 
+          glue-grid__col--span-12 glue-mod-text-center
+      ">
+
+          
+
+  <div id="sticky_signup_trigger" class="sticky-signup-trigger"></div>
+
+  <div id="sticky_signup" class="sticky-signup glue-mod-box-shadow-2">
+    <div class="col">
+        Help shape the future of Google
+    </div>
+    <div class="col">
+        
+
+        
+  <a href="https://google.qualtrics.com/jfe/form/SV_3NMIMtX0F2zkakR?referral_code=organic_main" data-context="sticky footer" aria-label="Sign up" class="glue-button glue-button--high-emphasis signup-button">Sign up</a>
+
+    
+    
+
+    </div>
+  </div>
+
+
+        
+        <h2 class="h3">
+            Help shape the future of Google
+        </h3>
+        
+        <div class="html-content">
+          <div class="html-content--item glue-mod-spacer-3-bottom glue-grid__col">
+            <p class="p1" style="font-size: 16px; line-height: normal; font-family: 'Google Sans'; color: #18191b;"><span style="color: #18191b; font-family: Google Sans;">Your feedback will make it possible for us to continue our mission of building a more helpful Google for everyone &ndash; no matter who they are, where they live, or what they want to accomplish.</span></p>
+          </div>
+
+            
+
+        
+  <a href="https://google.qualtrics.com/jfe/form/SV_3NMIMtX0F2zkakR?referral_code=organic_main" data-context="bottom row" aria-label="Sign up" class="glue-button glue-button--high-emphasis signup-button">Sign up</a>
+
+    
+    
+
+
+            <div class="html-content fine-print">
+            <p>For more information, take a look at our <a href="/faq">FAQ</a>.</p>
+            </div>
+        </div>
+
+      </div>
+      
+    </div>
+
+
+  </div>
+
+</section>
+
+
+    </div>
+  </section>
+
+
+<footer class="glue-footer glue-mod-spacer-1-top">
+
+  <section class="glue-footer__global">
+    <div class="glue-footer__logo">
+      <a href="https://www.google.com" title="Google" class="">
+        <svg role="presentation" aria-hidden="true" class="glue-footer__logo-img">
+          <use xlink:href="/static/img/glue-icons.svg#google-solid-logo"></use>
+        </svg>
+      </a>
+    </div>
+
+    <ul class="glue-footer__global-links glue-no-bullet">
+
+      <li class="glue-footer__global-links-list-item">
+        <a class="glue-footer__link" href="https://about.google/">About Google</a>
+      </li>
+
+      <li class="glue-footer__global-links-list-item">
+        <a class="glue-footer__link" href="https://about.google/products/">Google products</a>
+      </li>
+
+      <li class="glue-footer__global-links-list-item">
+        <a class="glue-footer__link" href="https://uxr-optout.withgoogle.com/?referral_code=0&amp;reserved=0&amp;pType=0&amp;productTag=0&amp;campaignType=0&amp;campaignDate=0&amp;labelTag=0&amp;appTag=0&amp;l=0&amp;Q_Language=0&amp;p_utm_source=0&amp;p_utm_medium=0&amp;p_utm_campaign=0&amp;p_utm_term=0&amp;p_utm_content=0">Opt out</a>
+      </li>
+
+      <li class="glue-footer__global-links-list-item">
+        <a class="glue-footer__link" href="https://google.qualtrics.com/jfe/form/SV_eyPOAUitnCs2mmG?referral_code=organic_footer">Update information</a>
+      </li>
+
+      <li class="glue-footer__global-links-list-item">
+        <a class="glue-footer__link" href="https://policies.google.com/privacy">Privacy</a>
+      </li>
+
+      <li class="glue-footer__global-links-list-item">
+        <a class="glue-footer__link" href="https://policies.google.com/terms">Terms</a>
+      </li>
+
+    </ul>
+
+    <ul class="glue-footer__global-links glue-footer__global-links--extra glue-no-bullet">
+      <li class="footer-help glue-footer__global-links-list-item glue-footer__global-links-list-item--extra">
+        <a class="glue-footer__link " href="https://support.google.com/?hl=en">
+          <svg role="presentation" aria-hidden="true" class="glue-icon glue-icon--24px glue-icon--footer-help">
+            <use xlink:href="/static/img/glue-icons.svg#help"></use>
+          </svg>
+          Help
+        </a>
+      </li>
+
+      <li class="glue-footer__global-links-list-item glue-footer__global-links-list-item--extra">
+          
+<div class="language-selector">
+
+  <div class="mdc-select mdc-select-language mdc-select--outlined mdc-select--nolabel glue-select" id="select-floating-withdefault-2">
+    <input type="hidden" name="floating-withdefault-2" value="en">
+    <div class="mdc-select__anchor" role="button" aria-haspopup="listbox" aria-labelledby="selectedtext-floating-withdefault-2" tabindex="0" aria-disabled="false" aria-expanded="false">
+      <span id="selectedtext-floating-withdefault-2" class="mdc-select__selected-text"></span>
+      <span class="mdc-select__dropdown-icon">
+        <svg role="presentation" aria-hidden="true" class="mdc-select__dropdown-icon-graphic" viewBox="7 10 10 5">
+          <polygon class="mdc-select__dropdown-icon-inactive" stroke="none" fill-rule="evenodd" points="7 10 12 15 17 10"></polygon>
+          <polygon class="mdc-select__dropdown-icon-active" stroke="none" fill-rule="evenodd" points="7 15 12 10 17 15"></polygon>
+        </svg>
+      </span>
+      <span class="mdc-notched-outline mdc-notched-outline--no-label">
+        <span class="mdc-notched-outline__leading"></span>
+        <span class="mdc-notched-outline__trailing"></span>
+      </span>
+    </div>
+    <div class="mdc-select__menu mdc-menu mdc-menu-surface" role="listbox" style="transform-origin: center top; left: 0px; top: 56px; max-height: 244px;">
+      <ul class="mdc-list">
+        <li class="mdc-list-item mdc-list-item--selected" data-value="en" aria-selected="true" aria-posinset="1" aria-setsize="16" role="option" tabindex="0">
+          <span class="mdc-list-item__ripple"></span>
+          <span class="mdc-list-item__text">English</span>
+        </li>
+        <li class="mdc-list-item " data-value="bn"  aria-posinset="2" aria-setsize="16" role="option" tabindex="-1">
+          <span class="mdc-list-item__ripple"></span>
+          <span class="mdc-list-item__text">বাংলা</span>
+        </li>
+        <li class="mdc-list-item " data-value="de"  aria-posinset="3" aria-setsize="16" role="option" tabindex="-1">
+          <span class="mdc-list-item__ripple"></span>
+          <span class="mdc-list-item__text">Deutsch</span>
+        </li>
+        <li class="mdc-list-item " data-value="en-GB"  aria-posinset="4" aria-setsize="16" role="option" tabindex="-1">
+          <span class="mdc-list-item__ripple"></span>
+          <span class="mdc-list-item__text">English (United Kingdom)</span>
+        </li>
+        <li class="mdc-list-item " data-value="es"  aria-posinset="5" aria-setsize="16" role="option" tabindex="-1">
+          <span class="mdc-list-item__ripple"></span>
+          <span class="mdc-list-item__text">Español</span>
+        </li>
+        <li class="mdc-list-item " data-value="es-419"  aria-posinset="6" aria-setsize="16" role="option" tabindex="-1">
+          <span class="mdc-list-item__ripple"></span>
+          <span class="mdc-list-item__text">Español (Latinoamérica)</span>
+        </li>
+        <li class="mdc-list-item " data-value="fr"  aria-posinset="7" aria-setsize="16" role="option" tabindex="-1">
+          <span class="mdc-list-item__ripple"></span>
+          <span class="mdc-list-item__text">Français</span>
+        </li>
+        <li class="mdc-list-item " data-value="hi"  aria-posinset="8" aria-setsize="16" role="option" tabindex="-1">
+          <span class="mdc-list-item__ripple"></span>
+          <span class="mdc-list-item__text">हिन्दी</span>
+        </li>
+        <li class="mdc-list-item " data-value="id"  aria-posinset="9" aria-setsize="16" role="option" tabindex="-1">
+          <span class="mdc-list-item__ripple"></span>
+          <span class="mdc-list-item__text">Indonesia</span>
+        </li>
+        <li class="mdc-list-item " data-value="it"  aria-posinset="10" aria-setsize="16" role="option" tabindex="-1">
+          <span class="mdc-list-item__ripple"></span>
+          <span class="mdc-list-item__text">Italiano</span>
+        </li>
+        <li class="mdc-list-item " data-value="ja"  aria-posinset="11" aria-setsize="16" role="option" tabindex="-1">
+          <span class="mdc-list-item__ripple"></span>
+          <span class="mdc-list-item__text">日本語</span>
+        </li>
+        <li class="mdc-list-item " data-value="pt-BR"  aria-posinset="12" aria-setsize="16" role="option" tabindex="-1">
+          <span class="mdc-list-item__ripple"></span>
+          <span class="mdc-list-item__text">Português (Brasil)</span>
+        </li>
+        <li class="mdc-list-item " data-value="pt-PT"  aria-posinset="13" aria-setsize="16" role="option" tabindex="-1">
+          <span class="mdc-list-item__ripple"></span>
+          <span class="mdc-list-item__text">Português (Portugal)</span>
+        </li>
+        <li class="mdc-list-item " data-value="sw"  aria-posinset="14" aria-setsize="16" role="option" tabindex="-1">
+          <span class="mdc-list-item__ripple"></span>
+          <span class="mdc-list-item__text">Kiswahili</span>
+        </li>
+        <li class="mdc-list-item " data-value="zh-CN"  aria-posinset="15" aria-setsize="16" role="option" tabindex="-1">
+          <span class="mdc-list-item__ripple"></span>
+          <span class="mdc-list-item__text">中文 (简体)</span>
+        </li>
+        <li class="mdc-list-item " data-value="zh-TW"  aria-posinset="16" aria-setsize="16" role="option" tabindex="-1">
+          <span class="mdc-list-item__ripple"></span>
+          <span class="mdc-list-item__text">中文 (繁體)</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+      </li>
+    </ul>
+
+  </section>
+</footer>    <script src="https://ajax.googleapis.com/ajax/libs/hammerjs/2.0.8/hammer.min.js" nonce="1SQwO0ouu2SphYA7cPfn-g"></script>
+    <script id="langCodes" type="application/json" nonce="1SQwO0ouu2SphYA7cPfn-g">
+      ["bn", "de", "en", "en-GB", "es", "es-419", "fr", "hi", "id", "it", "ja", "pt-BR", "pt-PT", "sw", "zh-CN", "zh-TW"]
+    </script>
+    <script id="intlPaths" type="application/json" nonce="1SQwO0ouu2SphYA7cPfn-g">
+      [{"lang": "en", "path": "/"}, {"lang": "bn", "path": "/intl/bn_ALL"}, {"lang": "de", "path": "/intl/de_ALL"}, {"lang": "en-gb", "path": "/intl/en-GB_ALL"}, {"lang": "es", "path": "/intl/es_ALL"}, {"lang": "es-419", "path": "/intl/es-419_ALL"}, {"lang": "fr", "path": "/intl/fr_ALL"}, {"lang": "hi", "path": "/intl/hi_ALL"}, {"lang": "id", "path": "/intl/id_ALL"}, {"lang": "it", "path": "/intl/it_ALL"}, {"lang": "ja", "path": "/intl/ja_ALL"}, {"lang": "pt-br", "path": "/intl/pt-BR_ALL"}, {"lang": "pt-pt", "path": "/intl/pt-PT_ALL"}, {"lang": "sw", "path": "/intl/sw_ALL"}, {"lang": "zh-cn", "path": "/intl/zh-CN_ALL"}, {"lang": "zh-tw", "path": "/intl/zh-TW_ALL"}]
+    </script>
+    <script src="/static/js/index.min.js?cache=59389ef" nonce="1SQwO0ouu2SphYA7cPfn-g"></script>
+  </body>
+</html>

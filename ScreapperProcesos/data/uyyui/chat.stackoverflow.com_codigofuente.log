@@ -1,0 +1,1050 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/shared/chrome/chrome.css?v=eadc0abfe229">
+    <link rel="stylesheet" href="//cdn-chat.sstatic.net/chat/css/chat.stackoverflow.com.css?v=c980b0d50eaf">
+    <link rel="shortcut icon" href="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=dc"><link rel="apple-touch-icon" href="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=dc"><link rel="search" type="application/opensearchdescription+xml" title="Chat for chat.stackoverflow.com" href="/opensearch.xml">                    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script type="text/javascript" src="//cdn-chat.sstatic.net/chat/js/master.js?v=e4baff458882"></script>
+    
+<script type="text/javascript">
+    function IMAGE(f) { return ("//cdn-chat.sstatic.net/chat/img/" + f); }
+</script>
+    <title>all rooms | chat.stackoverflow.com</title>
+    <script type="text/javascript">
+        $(function () {
+            InitRoomIndex('all', 'active', 20, 1, false, "");
+        });
+        
+    </script>
+    <link rel="stylesheet" href="//cdn-chat.sstatic.net/chat/Js/third-party/jquery.autocomplete.css?v=efa82d067c78"/>
+
+        
+    <script type="text/javascript">$(function() {
+        var pagesupport = initBasicPage("Stack Overflow",20,null,true);});
+    
+    </script>
+    
+</head>
+<body class="outside">
+    
+    <div id="container">
+        
+
+
+<div class="topbar">
+    <div class="topbar-wrapper">
+
+        <div class="js-topbar-dialog-corral">
+        </div>
+
+        <div class="network-items">
+
+            <a href="https://stackexchange.com"
+               class="topbar-icon icon-site-switcher yes-hover js-site-switcher-button js-gps-track"
+               data-gps-track="site_switcher.show"
+               title="A list of all 182 Stack Exchange sites">
+                <span class="hidden-text">Stack Exchange</span>
+            </a>
+
+        </div>
+        <div class="topbar-links">
+                <div class="links-container">
+                    <span class="topbar-menu-links">
+                                <a href="https://stackoverflow.com/users/login?returnurl=https%3a%2f%2fchat.stackoverflow.com%2f%3ftab%3dsite%26amp%3bhost%3dstackoverflow.com">log in</a>
+
+                                            </span>
+                </div>
+                <div class="search-container">
+                    <form action="/search" method="get" autocomplete="off">
+                        <input name="q" id="searchbox" type="text" placeholder="search" size="28" maxlength="80" />
+                    </form>
+                </div>
+        </div>
+    </div>
+</div>
+<script>
+        $(function() {
+            StackExchange.topbar.init({"serverTime":1669804812,"enableLogging":false});
+        });
+</script>
+
+            <div id="header">
+                <div id="hlogo">
+                    <div id="header-logo">    <a rel="noreferrer noopener" href="https://stackoverflow.com" title="Stack Overflow"><img style="max-width:150px" src="https://cdn.sstatic.net/Sites/stackoverflow/Img/logo.png?v=dc" alt="Stack Overflow"/></a>
+    
+</div>
+                </div>
+                <div id="hmenu">
+                    <div class="nav">
+                        <ul>
+                            <li >
+                                <a href="/users" title="30 users active in the last 60 minutes">users (30)</a>
+                            </li>
+                            <li >
+                                <a href="/rooms" title="29 rooms active in the last 120 minutes">rooms (29)</a>
+                            </li>
+                            <li >
+                                <a href="/faq">faq</a>
+                            </li>
+                        </ul>    
+                    </div>
+                </div>
+            </div>
+
+        <div id="content">
+            
+    <div class="clear-both">
+    </div>
+    
+    <div class="subheader">
+        <h1>Rooms</h1>
+         
+        <div id="tabs">
+           <a class="youarehere" href="?tab=all&sort=active" title="all rooms">all</a><a href="?tab=events&sort=active" title="rooms with scheduled events"><span class="tabcount">2</span> events</a>
+        </div>
+    </div>
+    
+    <div class="room-tab-description">a list of all rooms, recently active rooms first
+
+    </div>
+    <div id="roomsearch">
+        <input type="text" id="search" name="search" value=""/>
+    </div>
+    
+    <div class="subtabs" style="width:auto">
+        <a href="?tab=all&sort=created" title="newly created rooms first">created</a><a href="?tab=all&sort=people" title="most populated rooms first">people</a><a href="?tab=all&sort=event" title="next scheduled events first">event</a><a class="youarehere" href="?tab=all&sort=active" title="recently active rooms first">active</a>
+    </div>
+        
+        <div class="event-banner clear-both"><span class="banner-title">Upcoming events:</span> <span class="event">on Jul 11, 2023 at 0:00 <a href="/rooms/info/217630/google-apps-script-chat-community?tab=schedule"><img class="small-site-logo" title="Stack Overflow" alt="Stack Overflow" width="16" height="16" src="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=dc" />&nbsp;GAS++</a></span>, <span class="event">on Oct 16, 2023 at 9:00 <a href="/rooms/info/18165/wpf?tab=schedule"><img class="small-site-logo" title="Stack Overflow" alt="Stack Overflow" width="16" height="16" src="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=dc" />&nbsp;Happy Birthday WPF!</a></span>
+            <a title="add all chat events to your iCalendar-compatible calendar" href="/rooms/schedule/export/all"><span class="icalendar"></span></a>
+            </div>
+    <div class="clear-both"></div>
+    <div id="roomlist">
+
+    <div id="room-210133" class="roomcard">
+        <div class="room-header">
+                <div title="Toggle as a favorite room" class="favorite-room-vote"> </div>
+            <h3>
+
+                <span style="display:inline-block" class="sprite sprite-sec-gallery" title="Gallery: anyone may enter, but only approved users can talk"></span><span title="Moderators have full access to this room">&#9830;</span>&nbsp;<span class="room-name" title="NAABot"><a rel="noreferrer noopener" href="/rooms/210133/naabot">NAABot</a></span>
+            </h3>
+            <img class="small-site-logo" title="Stack Overflow" alt="Stack Overflow" width="16" height="16" src="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=dc" />
+            <div class="room-description" title="This is to collect all reports for NAA posts from my bot. Check this link for a full explanation https://stackapps.com/questions/8594/naabot-bot-which-finds-and-flags-problematic-answers-on-stack-overflow">This is to collect all reports for NAA posts from my bot. Check this link for a full explanation https://stackapps.com/questions/8594/naabot-bot-which-finds-and-flags-problematic-answers-on-stack-overflow</div>           
+            <div class="clear-both"></div>
+        </div>
+        <div class="room-details">
+                        <div class="mini-room-chart" title="Typical room activity over a 24-hour period; current time is highlighted">
+                            <div class="mspark" style="height:25px;width:192px">
+<div class="mspbar" style="width:8px;height:10px;left:0px;"></div><div class="mspbar" style="width:8px;height:9px;left:8px;"></div><div class="mspbar" style="width:8px;height:11px;left:16px;"></div><div class="mspbar" style="width:8px;height:10px;left:24px;"></div><div class="mspbar" style="width:8px;height:11px;left:32px;"></div><div class="mspbar" style="width:8px;height:11px;left:40px;"></div><div class="mspbar" style="width:8px;height:15px;left:48px;"></div><div class="mspbar" style="width:8px;height:20px;left:56px;"></div><div class="mspbar" style="width:8px;height:20px;left:64px;"></div><div class="mspbar" style="width:8px;height:25px;left:72px;"></div><div class="mspbar" style="width:8px;height:25px;left:80px;"></div><div class="mspbar" style="width:8px;height:23px;left:88px;"></div><div class="mspbar" style="width:8px;height:23px;left:96px;"></div><div class="mspbar" style="width:8px;height:25px;left:104px;"></div><div class="mspbar" style="width:8px;height:25px;left:112px;"></div><div class="mspbar" style="width:8px;height:22px;left:120px;"></div><div class="mspbar" style="width:8px;height:23px;left:128px;"></div><div class="mspbar" style="width:8px;height:18px;left:136px;"></div><div class="mspbar" style="width:8px;height:18px;left:144px;"></div><div class="mspbar" style="width:8px;height:17px;left:152px;"></div><div class="mspbar" style="width:8px;height:15px;left:160px;"></div><div class="mspbar" style="width:8px;height:15px;left:168px;"></div><div class="mspbar" style="width:8px;height:12px;left:176px;"></div><div class="mspbar" style="width:8px;height:10px;left:184px;"></div><div class="mspbar now" style="height:25px;left:85px;"></div></div>
+
+                        </div>
+
+            
+            <div class="cycle">
+                <div class="last-activity">2s ago &ndash; <a href="/users/11995760/dharmanbot" title="DharmanBot">DharmanBot</a></div>
+            </div>
+            <div class="room-users" title="1 user present"><!-- 
+                    --><a class="user-gravatar32" href="/users/11407695/oleg-valter-is-with-ukraine"><img  height="32" width="32" alt="Oleg Valter is with Ukraine: no posts" title="Oleg Valter is with Ukraine: no posts" src="https://www.gravatar.com/avatar/6e780ea997ca2280a7e2db311220a563?s=32&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+ 
+            --></div>
+        </div>
+ 
+        <div class="room-message-count" title="292832 all time messages">
+            <a href="/transcript/210133">293k</a>
+        </div>
+        <div class="room-user-count" title="all time users">2</div>
+        <div class="room-info-link">
+    <a href="/rooms/info/210133/naabot">info</a>
+    </div>
+ 
+    </div>
+
+    <div id="room-126814" class="roomcard">
+        <div class="room-header">
+                <div title="Toggle as a favorite room" class="favorite-room-vote"> </div>
+            <h3>
+
+                <span style="display:inline-block" class="sprite sprite-sec-gallery" title="Gallery: anyone may enter, but only approved users can talk"></span><span title="Moderators have full access to this room">&#9830;</span>&nbsp;<span class="room-name" title="New Answers to Old Questions Headquarters"><a rel="noreferrer noopener" href="/rooms/126814/new-answers-to-old-questions-headquarters" title="New Answers to Old Questions Headquarters">New Answers to Old Questions Headquar<span>&hellip;</span></a></span>
+            </h3>
+            <img class="small-site-logo" title="Stack Overflow" alt="Stack Overflow" width="16" height="16" src="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=dc" />
+            <div class="room-description" title="Where the New Answers to the Old Questions are logged. If you have any problems contact us in Sobotics room (/rooms/111347). Link to the github project https://git.io/vi0YX NOTE: This room is only in gallery mode for bot messages, no one will be accepted ">Where the New Answers to the Old Questions are logged. If you have any problems contact us in Sobotics room (/rooms/111347). Link to the github project https://git.io/vi0YX NOTE: This room is only in gallery mode for bot messages, no one will be accepted </div>           
+            <div class="clear-both"></div>
+        </div>
+        <div class="room-details">
+                        <div class="mini-room-chart" title="Typical room activity over a 24-hour period; current time is highlighted">
+                            <div class="mspark" style="height:25px;width:192px">
+<div class="mspbar" style="width:8px;height:10px;left:0px;"></div><div class="mspbar" style="width:8px;height:10px;left:8px;"></div><div class="mspbar" style="width:8px;height:10px;left:16px;"></div><div class="mspbar" style="width:8px;height:11px;left:24px;"></div><div class="mspbar" style="width:8px;height:12px;left:32px;"></div><div class="mspbar" style="width:8px;height:14px;left:40px;"></div><div class="mspbar" style="width:8px;height:18px;left:48px;"></div><div class="mspbar" style="width:8px;height:20px;left:56px;"></div><div class="mspbar" style="width:8px;height:21px;left:64px;"></div><div class="mspbar" style="width:8px;height:24px;left:72px;"></div><div class="mspbar" style="width:8px;height:24px;left:80px;"></div><div class="mspbar" style="width:8px;height:23px;left:88px;"></div><div class="mspbar" style="width:8px;height:25px;left:96px;"></div><div class="mspbar" style="width:8px;height:25px;left:104px;"></div><div class="mspbar" style="width:8px;height:25px;left:112px;"></div><div class="mspbar" style="width:8px;height:25px;left:120px;"></div><div class="mspbar" style="width:8px;height:23px;left:128px;"></div><div class="mspbar" style="width:8px;height:20px;left:136px;"></div><div class="mspbar" style="width:8px;height:19px;left:144px;"></div><div class="mspbar" style="width:8px;height:18px;left:152px;"></div><div class="mspbar" style="width:8px;height:17px;left:160px;"></div><div class="mspbar" style="width:8px;height:16px;left:168px;"></div><div class="mspbar" style="width:8px;height:14px;left:176px;"></div><div class="mspbar" style="width:8px;height:11px;left:184px;"></div><div class="mspbar now" style="height:25px;left:85px;"></div></div>
+
+                        </div>
+
+            
+            <div class="cycle">
+                <div class="last-activity">1m ago &ndash; <a href="/users/6817005/natty" title="Natty">Natty</a></div>
+            </div>
+            <div class="room-users" title="1 user present"><!-- 
+                    --><a class="user-gravatar32" href="/users/6817005/natty"><img  height="32" width="32" alt="Natty: 1m ago, 2360388 posts (99%)" title="Natty: 1m ago, 2360388 posts (99%)" src="https://i.stack.imgur.com/aMUMt.jpg?s=32&amp;g=1" style="opacity:0.99;-moz-opacity:0.99;filter:alpha(opacity=99);" /></a><!--
+ 
+            --></div>
+        </div>
+ 
+        <div class="room-message-count" title="2360788 all time messages">
+            <a href="/transcript/126814">2361k</a>
+        </div>
+        <div class="room-user-count" title="all time users">22</div>
+        <div class="room-info-link">
+    <a href="/rooms/info/126814/new-answers-to-old-questions-headquarters">info</a>
+    </div>
+ 
+    </div>
+
+    <div id="room-232981" class="roomcard">
+        <div class="room-header">
+                <div title="Toggle as a favorite room" class="favorite-room-vote"> </div>
+            <h3>
+
+                <span style="display:inline-block" class="sprite sprite-sec-gallery" title="Gallery: anyone may enter, but only approved users can talk"></span><span title="Moderators have full access to this room">&#9830;</span>&nbsp;<span class="room-name" title="4b0&#39;s room"><a rel="noreferrer noopener" href="/rooms/232981/4b0s-room">4b0&#39;s room</a></span>
+            </h3>
+            <img class="small-site-logo" title="Stack Overflow" alt="Stack Overflow" width="16" height="16" src="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=dc" />
+            <div class="room-description" title="To make SO clean, it&#39;s only a small step !! 1. &#128681; ! = &#127987;️ (autoflag vs out of flag). 2. Not every comments posted here worthy to flag. 3.  Due to the daily flag limit (100 flag per day), I escape several comments which falls under NLN. 4. Use your best judgment before flag a comment as NLN. ">To make SO clean, it&#39;s only a small step !! 1. &#128681; ! = &#127987;️ (autoflag vs out of flag). 2. Not every comments posted here worthy to flag. 3.  Due to the daily flag limit (100 flag per day), I escape several comments which falls under NLN. 4. Use your best judgment before flag a comment as NLN. </div>           
+            <div class="clear-both"></div>
+        </div>
+        <div class="room-details">
+                        <div class="mini-room-chart" title="Typical room activity over a 24-hour period; current time is highlighted">
+                            <div class="mspark" style="height:25px;width:192px">
+<div class="mspbar" style="width:8px;height:15px;left:0px;"></div><div class="mspbar" style="width:8px;height:17px;left:8px;"></div><div class="mspbar" style="width:8px;height:19px;left:16px;"></div><div class="mspbar" style="width:8px;height:21px;left:24px;"></div><div class="mspbar" style="width:8px;height:20px;left:32px;"></div><div class="mspbar" style="width:8px;height:19px;left:40px;"></div><div class="mspbar" style="width:8px;height:23px;left:48px;"></div><div class="mspbar" style="width:8px;height:25px;left:56px;"></div><div class="mspbar" style="width:8px;height:25px;left:64px;"></div><div class="mspbar" style="width:8px;height:21px;left:72px;"></div><div class="mspbar" style="width:8px;height:21px;left:80px;"></div><div class="mspbar" style="width:8px;height:20px;left:88px;"></div><div class="mspbar" style="width:8px;height:20px;left:96px;"></div><div class="mspbar" style="width:8px;height:18px;left:104px;"></div><div class="mspbar" style="width:8px;height:18px;left:112px;"></div><div class="mspbar" style="width:8px;height:20px;left:120px;"></div><div class="mspbar" style="width:8px;height:18px;left:128px;"></div><div class="mspbar" style="width:8px;height:21px;left:136px;"></div><div class="mspbar" style="width:8px;height:18px;left:144px;"></div><div class="mspbar" style="width:8px;height:19px;left:152px;"></div><div class="mspbar" style="width:8px;height:19px;left:160px;"></div><div class="mspbar" style="width:8px;height:15px;left:168px;"></div><div class="mspbar" style="width:8px;height:19px;left:176px;"></div><div class="mspbar" style="width:8px;height:18px;left:184px;"></div><div class="mspbar now" style="height:25px;left:85px;"></div></div>
+
+                        </div>
+
+            
+            <div class="cycle">
+                <div class="last-activity">1m ago &ndash; <a href="/users/965146/4b0" title="4b0">4b0</a></div>
+            </div>
+            <div class="room-users" title="2 users present"><!-- 
+                    --><a class="user-gravatar32" href="/users/965146/4b0"><img  height="32" width="32" alt="4b0: 1m ago, 97447 posts (99%)" title="4b0: 1m ago, 97447 posts (99%)" src="https://i.stack.imgur.com/mDXvl.jpg?s=32&amp;g=1" style="opacity:0.98;-moz-opacity:0.98;filter:alpha(opacity=98);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/11407695/oleg-valter-is-with-ukraine"><img  height="32" width="32" alt="Oleg Valter is with Ukraine: 173d ago, 4 posts (0%)" title="Oleg Valter is with Ukraine: 173d ago, 4 posts (0%)" src="https://www.gravatar.com/avatar/6e780ea997ca2280a7e2db311220a563?s=32&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+ 
+            --></div>
+        </div>
+ 
+        <div class="room-message-count" title="97560 all time messages">
+            <a href="/transcript/232981">97.6k</a>
+        </div>
+        <div class="room-user-count" title="all time users">7</div>
+        <div class="room-info-link">
+    <a href="/rooms/info/232981/4b0s-room">info</a>
+    </div>
+ 
+    </div>
+
+    <div id="room-244314" class="roomcard">
+        <div class="room-header">
+                <div title="Toggle as a favorite room" class="favorite-room-vote"> </div>
+            <h3>
+
+                <span style="display:inline-block" class="sprite sprite-sec-gallery" title="Gallery: anyone may enter, but only approved users can talk"></span><span title="Moderators have full access to this room">&#9830;</span>&nbsp;<span class="room-name" title="Off topic questions"><a rel="noreferrer noopener" href="/rooms/244314/off-topic-questions">Off topic questions</a></span>
+            </h3>
+            <img class="small-site-logo" title="Stack Overflow" alt="Stack Overflow" width="16" height="16" src="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=dc" />
+            <div class="room-description" title="This room tracks all new questions that are posted with tags that generally shouldn&#39;t be used on their own. Please review them and vote to close as off-topic if the question isn&#39;t suitable for Stack Overflow">This room tracks all new questions that are posted with tags that generally shouldn&#39;t be used on their own. Please review them and vote to close as off-topic if the question isn&#39;t suitable for Stack Overflow</div>           
+            <div class="clear-both"></div>
+        </div>
+        <div class="room-details">
+                        <div class="mini-room-chart" title="Typical room activity over a 24-hour period; current time is highlighted">
+                            <div class="mspark" style="height:25px;width:192px">
+<div class="mspbar" style="width:8px;height:4px;left:0px;"></div><div class="mspbar" style="width:8px;height:11px;left:8px;"></div><div class="mspbar" style="width:8px;height:10px;left:16px;"></div><div class="mspbar" style="width:8px;height:11px;left:24px;"></div><div class="mspbar" style="width:8px;height:11px;left:32px;"></div><div class="mspbar" style="width:8px;height:9px;left:40px;"></div><div class="mspbar" style="width:8px;height:10px;left:48px;"></div><div class="mspbar" style="width:8px;height:21px;left:56px;"></div><div class="mspbar" style="width:8px;height:19px;left:64px;"></div><div class="mspbar" style="width:8px;height:25px;left:72px;"></div><div class="mspbar" style="width:8px;height:19px;left:80px;"></div><div class="mspbar" style="width:8px;height:16px;left:88px;"></div><div class="mspbar" style="width:8px;height:13px;left:96px;"></div><div class="mspbar" style="width:8px;height:21px;left:104px;"></div><div class="mspbar" style="width:8px;height:24px;left:112px;"></div><div class="mspbar" style="width:8px;height:20px;left:120px;"></div><div class="mspbar" style="width:8px;height:23px;left:128px;"></div><div class="mspbar" style="width:8px;height:23px;left:136px;"></div><div class="mspbar" style="width:8px;height:17px;left:144px;"></div><div class="mspbar" style="width:8px;height:19px;left:152px;"></div><div class="mspbar" style="width:8px;height:19px;left:160px;"></div><div class="mspbar" style="width:8px;height:6px;left:168px;"></div><div class="mspbar" style="width:8px;height:12px;left:176px;"></div><div class="mspbar" style="width:8px;height:9px;left:184px;"></div><div class="mspbar now" style="height:25px;left:85px;"></div></div>
+
+                        </div>
+
+            
+            <div class="cycle">
+                <div class="last-activity">1m ago &ndash; <a href="/users/11995760/dharmanbot" title="DharmanBot">DharmanBot</a></div>
+            </div>
+            <div class="room-users" title="1 user present"><!-- 
+                    --><a class="user-gravatar32" href="/users/1839439/dharman"><img  height="32" width="32" alt="Dharman: 37d ago, 2 posts (0%)" title="Dharman: 37d ago, 2 posts (0%)" src="https://i.stack.imgur.com/agMKZ.png?s=32&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+ 
+            --></div>
+        </div>
+ 
+        <div class="room-message-count" title="3839 all time messages">
+            <a href="/transcript/244314">3.8k</a>
+        </div>
+        <div class="room-user-count" title="all time users">1</div>
+        <div class="room-info-link">
+    <a href="/rooms/info/244314/off-topic-questions">info</a>
+    </div>
+ 
+    </div>
+
+    <div id="room-249491" class="roomcard">
+        <div class="room-header">
+                <div title="Toggle as a favorite room" class="favorite-room-vote"> </div>
+            <h3>
+
+                <span class="room-name" title="tkinter"><a rel="noreferrer noopener" href="/rooms/249491/tkinter">tkinter</a></span>
+            </h3>
+            <img class="small-site-logo" title="Stack Overflow" alt="Stack Overflow" width="16" height="16" src="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=dc" />
+            <div class="room-description" title="A chatroom for the tkinter community.">A chatroom for the tkinter community.</div>           
+            <div class="clear-both"></div>
+        </div>
+        <div class="room-details">
+                        <div class="mini-room-chart" title="Typical room activity over a 24-hour period; current time is highlighted">
+                            <div class="mspark" style="height:25px;width:192px">
+<div class="mspbar" style="width:8px;height:6px;left:0px;"></div><div class="mspbar" style="width:8px;height:0px;left:8px;"></div><div class="mspbar" style="width:8px;height:0px;left:16px;"></div><div class="mspbar" style="width:8px;height:1px;left:24px;"></div><div class="mspbar" style="width:8px;height:1px;left:40px;"></div><div class="mspbar" style="width:8px;height:0px;left:48px;"></div><div class="mspbar" style="width:8px;height:4px;left:56px;"></div><div class="mspbar" style="width:8px;height:3px;left:64px;"></div><div class="mspbar" style="width:8px;height:3px;left:72px;"></div><div class="mspbar" style="width:8px;height:6px;left:80px;"></div><div class="mspbar" style="width:8px;height:8px;left:88px;"></div><div class="mspbar" style="width:8px;height:10px;left:96px;"></div><div class="mspbar" style="width:8px;height:25px;left:104px;"></div><div class="mspbar" style="width:8px;height:7px;left:112px;"></div><div class="mspbar" style="width:8px;height:9px;left:120px;"></div><div class="mspbar" style="width:8px;height:13px;left:128px;"></div><div class="mspbar" style="width:8px;height:13px;left:136px;"></div><div class="mspbar" style="width:8px;height:3px;left:144px;"></div><div class="mspbar" style="width:8px;height:1px;left:152px;"></div><div class="mspbar" style="width:8px;height:2px;left:160px;"></div><div class="mspbar" style="width:8px;height:2px;left:168px;"></div><div class="mspbar" style="width:8px;height:10px;left:176px;"></div><div class="mspbar" style="width:8px;height:19px;left:184px;"></div><div class="mspbar now" style="height:25px;left:85px;"></div></div>
+
+                        </div>
+
+            
+            <div class="cycle">
+                <div class="last-activity">4m ago &ndash; <a href="/users/12349101/nordine-lotfi" title="Nordine Lotfi">Nordine Lotfi</a></div>
+            </div>
+            <div class="room-users" title="2 users present"><!-- 
+                    --><a class="user-gravatar32" href="/users/12349101/nordine-lotfi"><img  height="32" width="32" alt="Nordine Lotfi: 4m ago, 534 posts (39%)" title="Nordine Lotfi: 4m ago, 534 posts (39%)" src="https://www.gravatar.com/avatar/713f276bb0c0cf45db72653741522a73?s=32&amp;d=identicon&amp;r=PG" style="opacity:0.94;-moz-opacity:0.94;filter:alpha(opacity=94);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/13629335/thingamabobs"><img  height="32" width="32" alt="Thingamabobs: 1h ago, 613 posts (45%)" title="Thingamabobs: 1h ago, 613 posts (45%)" src="https://i.stack.imgur.com/n46ga.png?s=32&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+ 
+            --></div>
+        </div>
+ 
+        <div class="room-message-count" title="1350 all time messages">
+            <a href="/transcript/249491">1.4k</a>
+        </div>
+        <div class="room-user-count" title="all time users">5</div>
+        <div class="room-info-link">
+    <a href="/rooms/info/249491/tkinter">info</a>
+    </div>
+ 
+    </div>
+
+    <div id="room-111347" class="roomcard">
+        <div class="room-header">
+                <div title="Toggle as a favorite room" class="favorite-room-vote"> </div>
+            <h3>
+
+                <span class="room-name" title="SOBotics"><a rel="noreferrer noopener" href="/rooms/111347/sobotics">SOBotics</a></span>
+            </h3>
+            <img class="small-site-logo" title="Stack Overflow" alt="Stack Overflow" width="16" height="16" src="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=dc" />
+            <div class="room-description" title="This room is dedicated to moderating content on Stack Overflow with the use of bots. Follow @SOBotics on Twitter. Handy Links: https://sobotics.org | Github: https://sobotics.org/github | Redunda: https://sobotics.org/redunda | Team/Channel: http://sobotics.org/team">This room is dedicated to moderating content on Stack Overflow with the use of bots. Follow @SOBotics on Twitter. Handy Links: https://sobotics.org | Github: https://sobotics.org/github | Redunda: https://sobotics.org/redunda | Team/Channel: http://sobotics.org/team</div>           
+            <div class="clear-both"></div>
+        </div>
+        <div class="room-details">
+                        <div class="mini-room-chart" title="Typical room activity over a 24-hour period; current time is highlighted">
+                            <div class="mspark" style="height:25px;width:192px">
+<div class="mspbar" style="width:8px;height:12px;left:0px;"></div><div class="mspbar" style="width:8px;height:10px;left:8px;"></div><div class="mspbar" style="width:8px;height:19px;left:16px;"></div><div class="mspbar" style="width:8px;height:22px;left:24px;"></div><div class="mspbar" style="width:8px;height:13px;left:32px;"></div><div class="mspbar" style="width:8px;height:15px;left:40px;"></div><div class="mspbar" style="width:8px;height:21px;left:48px;"></div><div class="mspbar" style="width:8px;height:23px;left:56px;"></div><div class="mspbar" style="width:8px;height:21px;left:64px;"></div><div class="mspbar" style="width:8px;height:22px;left:72px;"></div><div class="mspbar" style="width:8px;height:24px;left:80px;"></div><div class="mspbar" style="width:8px;height:22px;left:88px;"></div><div class="mspbar" style="width:8px;height:23px;left:96px;"></div><div class="mspbar" style="width:8px;height:23px;left:104px;"></div><div class="mspbar" style="width:8px;height:25px;left:112px;"></div><div class="mspbar" style="width:8px;height:23px;left:120px;"></div><div class="mspbar" style="width:8px;height:23px;left:128px;"></div><div class="mspbar" style="width:8px;height:18px;left:136px;"></div><div class="mspbar" style="width:8px;height:19px;left:144px;"></div><div class="mspbar" style="width:8px;height:18px;left:152px;"></div><div class="mspbar" style="width:8px;height:16px;left:160px;"></div><div class="mspbar" style="width:8px;height:16px;left:168px;"></div><div class="mspbar" style="width:8px;height:13px;left:176px;"></div><div class="mspbar" style="width:8px;height:9px;left:184px;"></div><div class="mspbar now" style="height:25px;left:85px;"></div></div>
+
+                        </div>
+
+            
+            <div class="cycle">
+                <div class="last-activity">4m ago &ndash; <a href="/users/6294609/queen" title="Queen">Queen</a></div>
+            </div>
+            <div class="room-users" title="21 users present"><!-- 
+                    --><a class="user-gravatar18" href="/users/6294609/queen"><img  height="18" width="18" alt="Queen: 4m ago, 161093 posts (8%)" title="Queen: 4m ago, 161093 posts (8%)" src="https://i.stack.imgur.com/58jhk.jpg?s=18&amp;g=1" style="opacity:0.94;-moz-opacity:0.94;filter:alpha(opacity=94);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/965146/4b0"><img  height="18" width="18" alt="4b0: 4m ago, 93968 posts (4%)" title="4b0: 4m ago, 93968 posts (4%)" src="https://i.stack.imgur.com/mDXvl.jpg?s=18&amp;g=1" style="opacity:0.93;-moz-opacity:0.93;filter:alpha(opacity=93);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/5211833/adriaan"><img  height="18" width="18" alt="Adriaan: 8m ago, 3255 posts (0%)" title="Adriaan: 8m ago, 3255 posts (0%)" src="https://i.stack.imgur.com/Pyme2.jpg?s=18&amp;g=1" style="opacity:0.88;-moz-opacity:0.88;filter:alpha(opacity=88);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/13903854/belisarius"><img  height="18" width="18" alt="Belisarius: 9m ago, 39431 posts (2%)" title="Belisarius: 9m ago, 39431 posts (2%)" src="https://i.stack.imgur.com/GUSnw.png?s=18&amp;g=1" style="opacity:0.87;-moz-opacity:0.87;filter:alpha(opacity=87);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/3735529/smokedetector"><img  height="18" width="18" alt="SmokeDetector: 13m ago, 80764 posts (4%)" title="SmokeDetector: 13m ago, 80764 posts (4%)" src="https://i.stack.imgur.com/7cmCt.png?s=18&amp;g=1" style="opacity:0.80;-moz-opacity:0.80;filter:alpha(opacity=80);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/6817005/natty"><img  height="18" width="18" alt="Natty: 18m ago, 499340 posts (26%)" title="Natty: 18m ago, 499340 posts (26%)" src="https://i.stack.imgur.com/aMUMt.jpg?s=18&amp;g=1" style="opacity:0.74;-moz-opacity:0.74;filter:alpha(opacity=74);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/7733418/yunnosch"><img  height="18" width="18" alt="Yunnosch: 29m ago, 41338 posts (2%)" title="Yunnosch: 29m ago, 41338 posts (2%)" src="https://www.gravatar.com/avatar/b08876b87c096cd006f66820ffc67f27?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.59;-moz-opacity:0.59;filter:alpha(opacity=59);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/7418352/guttenberg"><img  height="18" width="18" alt="Guttenberg: 46m ago, 20216 posts (1%)" title="Guttenberg: 46m ago, 20216 posts (1%)" src="https://i.stack.imgur.com/tzKAI.png?s=18&amp;g=1" style="opacity:0.34;-moz-opacity:0.34;filter:alpha(opacity=34);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/4826457/suraj-rao"><img  height="18" width="18" alt="Suraj Rao: 5h ago, 13069 posts (0%)" title="Suraj Rao: 5h ago, 13069 posts (0%)" src="https://i.stack.imgur.com/hXT0U.jpg?s=18&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/1030169/jmoerdyk"><img  height="18" width="18" alt="jmoerdyk: 9h ago, 9050 posts (0%)" title="jmoerdyk: 9h ago, 9050 posts (0%)" src="https://www.gravatar.com/avatar/93b40f413b34463de22c81d35b4c1930?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/1197518/steve"><img  height="18" width="18" alt="Steve: 18h ago, 8108 posts (0%)" title="Steve: 18h ago, 8108 posts (0%)" src="https://i.stack.imgur.com/cjKiP.png?s=18&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/7481043/generic-bot"><img  height="18" width="18" alt="Generic Bot: 20h ago, 29964 posts (1%)" title="Generic Bot: 20h ago, 29964 posts (1%)" src="https://i.stack.imgur.com/6DsXG.png?s=18&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/3689450/vlaz"><img  height="18" width="18" alt="VLAZ: 1d ago, 23 posts (0%)" title="VLAZ: 1d ago, 23 posts (0%)" src="https://i.stack.imgur.com/SXuSRm.png?s=18&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/11407695/oleg-valter-is-with-ukraine"><img  height="18" width="18" alt="Oleg Valter is with Ukraine: 2d ago, 23 posts (0%)" title="Oleg Valter is with Ukraine: 2d ago, 23 posts (0%)" src="https://www.gravatar.com/avatar/6e780ea997ca2280a7e2db311220a563?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/11682469/jeanne-dark"><img  height="18" width="18" alt="Jeanne Dark: 4d ago, 120 posts (0%)" title="Jeanne Dark: 4d ago, 120 posts (0%)" src="https://i.stack.imgur.com/uBqyk.jpg?s=18&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/5292302/petter-friberg"><img  height="18" width="18" alt="Petter Friberg: 6d ago, 53101 posts (2%)" title="Petter Friberg: 6d ago, 53101 posts (2%)" src="https://www.gravatar.com/avatar/3b61b00d5bcb378f99eadff312544514?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/441757/sideshowbarker"><img  height="18" width="18" alt="sideshowbarker: 7d ago, 1292 posts (0%)" title="sideshowbarker: 7d ago, 1292 posts (0%)" src="https://www.gravatar.com/avatar/921df025d1d7c99fad4553ac83bd8bdf?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/9821583/sbot"><img  height="18" width="18" alt="sBot: 37d ago, 285 posts (0%)" title="sBot: 37d ago, 285 posts (0%)" src="https://i.stack.imgur.com/ixXG4.png?s=18&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/2821954/andrew-t"><img  height="18" width="18" alt="Andrew T.: 180d ago, 24 posts (0%)" title="Andrew T.: 180d ago, 24 posts (0%)" src="https://i.stack.imgur.com/KAcfF.png?s=18&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/845414/johannes-kuhn"><img  height="18" width="18" alt="Johannes Kuhn: 1159d ago, 11 posts (0%)" title="Johannes Kuhn: 1159d ago, 11 posts (0%)" src="https://www.gravatar.com/avatar/8fbe63f77ce3f9656c62b27db4d8583b?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/10202457/ferhi-malek"><img  height="18" width="18" alt="Ferhi Malek: no posts" title="Ferhi Malek: no posts" src="https://lh6.googleusercontent.com/-XpTP89z_PXQ/AAAAAAAAAAI/AAAAAAAAABg/JN3aJewAL20/photo.jpg?sz=128" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+ 
+            --></div>
+        </div>
+ 
+        <div class="room-message-count" title="1884559 all time messages">
+            <a href="/transcript/111347">1885k</a>
+        </div>
+        <div class="room-user-count" title="all time users">524</div>
+        <div class="room-info-link">
+    <a href="/rooms/info/111347/sobotics">info</a>
+    </div>
+ 
+    </div>
+
+    <div id="room-197298" class="roomcard">
+        <div class="room-header">
+                <div title="Toggle as a favorite room" class="favorite-room-vote"> </div>
+            <h3>
+
+                <span style="display:inline-block" class="sprite sprite-sec-gallery" title="Gallery: anyone may enter, but only approved users can talk"></span><span title="Moderators have full access to this room">&#9830;</span>&nbsp;<span class="room-name" title="Meta Stack Overflow Comment Archive"><a rel="noreferrer noopener" href="/rooms/197298/meta-stack-overflow-comment-archive">Meta Stack Overflow Comment Archive</a></span>
+            </h3>
+            <img class="small-site-logo" title="Stack Overflow" alt="Stack Overflow" width="16" height="16" src="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=dc" />
+            <div class="room-description" title="A comprehensive archive of all Meta Stack Overflow Comments. Currently Running the SOBotics [Boson](https://github.com/SOBotics/boson) Tracker to fetch comments. Please do not star messages here and do not request access. For relevant chat and discussion, please use the Workshop: https://chat.stackoverflow.com/rooms/197325">A comprehensive archive of all Meta Stack Overflow Comments. Currently Running the SOBotics [Boson](https://github.com/SOBotics/boson) Tracker to fetch comments. Please do not star messages here and do not request access. For relevant chat and discussion, please use the Workshop: https://chat.stackoverflow.com/rooms/197325</div>           
+            <div class="clear-both"></div>
+        </div>
+        <div class="room-details">
+                        <div class="mini-room-chart" title="Typical room activity over a 24-hour period; current time is highlighted">
+                            <div class="mspark" style="height:25px;width:192px">
+<div class="mspbar" style="width:8px;height:9px;left:0px;"></div><div class="mspbar" style="width:8px;height:7px;left:8px;"></div><div class="mspbar" style="width:8px;height:7px;left:16px;"></div><div class="mspbar" style="width:8px;height:6px;left:24px;"></div><div class="mspbar" style="width:8px;height:7px;left:32px;"></div><div class="mspbar" style="width:8px;height:6px;left:40px;"></div><div class="mspbar" style="width:8px;height:7px;left:48px;"></div><div class="mspbar" style="width:8px;height:11px;left:56px;"></div><div class="mspbar" style="width:8px;height:9px;left:64px;"></div><div class="mspbar" style="width:8px;height:15px;left:72px;"></div><div class="mspbar" style="width:8px;height:8px;left:80px;"></div><div class="mspbar" style="width:8px;height:13px;left:88px;"></div><div class="mspbar" style="width:8px;height:11px;left:96px;"></div><div class="mspbar" style="width:8px;height:17px;left:104px;"></div><div class="mspbar" style="width:8px;height:21px;left:112px;"></div><div class="mspbar" style="width:8px;height:25px;left:120px;"></div><div class="mspbar" style="width:8px;height:15px;left:128px;"></div><div class="mspbar" style="width:8px;height:18px;left:136px;"></div><div class="mspbar" style="width:8px;height:15px;left:144px;"></div><div class="mspbar" style="width:8px;height:15px;left:152px;"></div><div class="mspbar" style="width:8px;height:20px;left:160px;"></div><div class="mspbar" style="width:8px;height:15px;left:168px;"></div><div class="mspbar" style="width:8px;height:16px;left:176px;"></div><div class="mspbar" style="width:8px;height:9px;left:184px;"></div><div class="mspbar now" style="height:25px;left:85px;"></div></div>
+
+                        </div>
+
+            
+            <div class="cycle">
+                <div class="last-activity">6m ago &ndash; <a href="/users/16844096/boson-standwithukraine" title="Boson - StandWithUkraine">Boson - StandWithUkraine</a></div>
+            </div>
+            <div class="room-users" title="4 users present"><!-- 
+                    --><a class="user-gravatar32" href="/users/16844096/boson-standwithukraine"><img  height="32" width="32" alt="Boson - StandWithUkraine: 6m ago, 128596 posts (44%)" title="Boson - StandWithUkraine: 6m ago, 128596 posts (44%)" src="https://www.gravatar.com/avatar/3621d60619f741965100afd357320376?s=32&amp;d=identicon&amp;r=PG" style="opacity:0.91;-moz-opacity:0.91;filter:alpha(opacity=91);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/2821954/andrew-t"><img  height="32" width="32" alt="Andrew T.: 143d ago, 2 posts (0%)" title="Andrew T.: 143d ago, 2 posts (0%)" src="https://i.stack.imgur.com/KAcfF.png?s=32&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/400654/kevin-b"><img  height="32" width="32" alt="Kevin B: no posts" title="Kevin B: no posts" src="https://i.stack.imgur.com/iwf7D.png?s=32&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/3689450/vlaz"><img  height="32" width="32" alt="VLAZ: no posts" title="VLAZ: no posts" src="https://i.stack.imgur.com/SXuSRm.png?s=32&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+ 
+            --></div>
+        </div>
+ 
+        <div class="room-message-count" title="289170 all time messages">
+            <a href="/transcript/197298">289k</a>
+        </div>
+        <div class="room-user-count" title="all time users">6</div>
+        <div class="room-info-link">
+    <a href="/rooms/info/197298/meta-stack-overflow-comment-archive">info</a>
+    </div>
+ 
+    </div>
+
+    <div id="room-41570" class="roomcard">
+        <div class="room-header">
+                <div title="Toggle as a favorite room" class="favorite-room-vote"> </div>
+            <h3>
+
+                <span class="room-name" title="SO Close Vote Reviewers"><a rel="noreferrer noopener" href="/rooms/41570/so-close-vote-reviewers">SO Close Vote Reviewers</a></span>
+            </h3>
+            <img class="small-site-logo" title="Stack Overflow" alt="Stack Overflow" width="16" height="16" src="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=dc" />
+            <div class="room-description" title="This room is for support and discussion about reviewing and coordination of site-wide cleanup efforts. Read our FAQ at https://socvr.org.">This room is for support and discussion about reviewing and coordination of site-wide cleanup efforts. Read our FAQ at https://socvr.org.</div>           
+            <div class="clear-both"></div>
+        </div>
+        <div class="room-details">
+                        <div class="mini-room-chart" title="Typical room activity over a 24-hour period; current time is highlighted">
+                            <div class="mspark" style="height:25px;width:192px">
+<div class="mspbar" style="width:8px;height:4px;left:0px;"></div><div class="mspbar" style="width:8px;height:3px;left:8px;"></div><div class="mspbar" style="width:8px;height:4px;left:16px;"></div><div class="mspbar" style="width:8px;height:4px;left:24px;"></div><div class="mspbar" style="width:8px;height:4px;left:32px;"></div><div class="mspbar" style="width:8px;height:4px;left:40px;"></div><div class="mspbar" style="width:8px;height:7px;left:48px;"></div><div class="mspbar" style="width:8px;height:6px;left:56px;"></div><div class="mspbar" style="width:8px;height:9px;left:64px;"></div><div class="mspbar" style="width:8px;height:8px;left:72px;"></div><div class="mspbar" style="width:8px;height:8px;left:80px;"></div><div class="mspbar" style="width:8px;height:10px;left:88px;"></div><div class="mspbar" style="width:8px;height:11px;left:96px;"></div><div class="mspbar" style="width:8px;height:14px;left:104px;"></div><div class="mspbar" style="width:8px;height:25px;left:112px;"></div><div class="mspbar" style="width:8px;height:16px;left:120px;"></div><div class="mspbar" style="width:8px;height:13px;left:128px;"></div><div class="mspbar" style="width:8px;height:8px;left:136px;"></div><div class="mspbar" style="width:8px;height:8px;left:144px;"></div><div class="mspbar" style="width:8px;height:13px;left:152px;"></div><div class="mspbar" style="width:8px;height:22px;left:160px;"></div><div class="mspbar" style="width:8px;height:13px;left:168px;"></div><div class="mspbar" style="width:8px;height:11px;left:176px;"></div><div class="mspbar" style="width:8px;height:9px;left:184px;"></div><div class="mspbar now" style="height:25px;left:85px;"></div></div>
+
+                        </div>
+
+            
+            <div class="cycle">
+                <div class="last-activity">11m ago &ndash; <a href="/users/5211833/adriaan" title="Adriaan">Adriaan</a></div>
+            </div>
+            <div class="room-users" title="35 users present"><!-- 
+                    --><a class="user-gravatar18" href="/users/5211833/adriaan"><img  height="18" width="18" alt="Adriaan: 11m ago, 14165 posts (1%)" title="Adriaan: 11m ago, 14165 posts (1%)" src="https://i.stack.imgur.com/Pyme2.jpg?s=18&amp;g=1" style="opacity:0.84;-moz-opacity:0.84;filter:alpha(opacity=84);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/3735529/smokedetector"><img  height="18" width="18" alt="SmokeDetector: 13m ago, 4466 posts (0%)" title="SmokeDetector: 13m ago, 4466 posts (0%)" src="https://i.stack.imgur.com/7cmCt.png?s=18&amp;g=1" style="opacity:0.80;-moz-opacity:0.80;filter:alpha(opacity=80);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/1839439/dharman"><img  height="18" width="18" alt="Dharman: 18m ago, 14255 posts (1%)" title="Dharman: 18m ago, 14255 posts (1%)" src="https://i.stack.imgur.com/agMKZ.png?s=18&amp;g=1" style="opacity:0.73;-moz-opacity:0.73;filter:alpha(opacity=73);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/3689450/vlaz"><img  height="18" width="18" alt="VLAZ: 25m ago, 5516 posts (0%)" title="VLAZ: 25m ago, 5516 posts (0%)" src="https://i.stack.imgur.com/SXuSRm.png?s=18&amp;g=1" style="opacity:0.63;-moz-opacity:0.63;filter:alpha(opacity=63);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/16343464/mozway"><img  height="18" width="18" alt="mozway: 35m ago, 2 posts (0%)" title="mozway: 35m ago, 2 posts (0%)" src="https://www.gravatar.com/avatar/0555bd0deb416a320a0069abef08078a?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.50;-moz-opacity:0.50;filter:alpha(opacity=50);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/10871073/adrian-mole"><img  height="18" width="18" alt="Adrian Mole: 40m ago, 18426 posts (1%)" title="Adrian Mole: 40m ago, 18426 posts (1%)" src="https://i.stack.imgur.com/ddBW9.png?s=18&amp;g=1" style="opacity:0.42;-moz-opacity:0.42;filter:alpha(opacity=42);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/965146/4b0"><img  height="18" width="18" alt="4b0: 1h ago, 1700 posts (0%)" title="4b0: 1h ago, 1700 posts (0%)" src="https://i.stack.imgur.com/mDXvl.jpg?s=18&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/1394729/tink"><img  height="18" width="18" alt="tink: 2h ago, 2586 posts (0%)" title="tink: 2h ago, 2586 posts (0%)" src="https://i.stack.imgur.com/B9Ri8.jpg?s=18&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/11682469/jeanne-dark"><img  height="18" width="18" alt="Jeanne Dark: 3h ago, 6869 posts (0%)" title="Jeanne Dark: 3h ago, 6869 posts (0%)" src="https://i.stack.imgur.com/uBqyk.jpg?s=18&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/4826457/suraj-rao"><img  height="18" width="18" alt="Suraj Rao: 5h ago, 5038 posts (0%)" title="Suraj Rao: 5h ago, 5038 posts (0%)" src="https://i.stack.imgur.com/hXT0U.jpg?s=18&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/3773011/makyen"><img  height="18" width="18" alt="Makyen: 6h ago, 27433 posts (2%)" title="Makyen: 6h ago, 27433 posts (2%)" src="https://i.stack.imgur.com/Hmfxy.jpg?s=18&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/16886597/cocomac"><img  height="18" width="18" alt="cocomac: 6h ago, 90 posts (0%)" title="cocomac: 6h ago, 90 posts (0%)" src="https://www.gravatar.com/avatar/1a7a64c69e2c2847857a74f7077f7437?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/400654/kevin-b"><img  height="18" width="18" alt="Kevin B: 8h ago, 4908 posts (0%)" title="Kevin B: 8h ago, 4908 posts (0%)" src="https://i.stack.imgur.com/iwf7D.png?s=18&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/1255289/miken32"><img  height="18" width="18" alt="miken32: 11h ago, 546 posts (0%)" title="miken32: 11h ago, 546 posts (0%)" src="https://www.gravatar.com/avatar/5ed02658b2440179f00eeff8beb7aa4c?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/1030169/jmoerdyk"><img  height="18" width="18" alt="jmoerdyk: 12h ago, 231 posts (0%)" title="jmoerdyk: 12h ago, 231 posts (0%)" src="https://www.gravatar.com/avatar/93b40f413b34463de22c81d35b4c1930?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/3744182/dbc"><img  height="18" width="18" alt="dbc: 15h ago, 725 posts (0%)" title="dbc: 15h ago, 725 posts (0%)" src="https://www.gravatar.com/avatar/6ab1dca8193d1b5734ba07702e963b6e?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/62576/ken-white"><img  height="18" width="18" alt="Ken White: 1d ago, 885 posts (0%)" title="Ken White: 1d ago, 885 posts (0%)" src="https://www.gravatar.com/avatar/15264f7bf48e10ce32dfa4865a13763c?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/208273/ryan-m"><img  height="18" width="18" alt="Ryan M: 1d ago, 15142 posts (1%)" title="Ryan M: 1d ago, 15142 posts (1%)" src="https://www.gravatar.com/avatar/65129b14ad4a755ba297a84f0ea03727?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/12892553/nimantha"><img  height="18" width="18" alt="Nimantha: 1d ago, 109 posts (0%)" title="Nimantha: 1d ago, 109 posts (0%)" src="https://www.gravatar.com/avatar/f9aab67045fa891d26b9a14a215a512a?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/794749/gre-gor"><img  height="18" width="18" alt="gre_gor: 1d ago, 252 posts (0%)" title="gre_gor: 1d ago, 252 posts (0%)" src="https://i.stack.imgur.com/pfE2l.jpg?s=18&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/14072420/tacoshy"><img  height="18" width="18" alt="tacoshy: 2d ago, 315 posts (0%)" title="tacoshy: 2d ago, 315 posts (0%)" src="https://lh3.googleusercontent.com/a-/AOh14Ghtz8g59rnQo7jGms27sREilcKA15imnj0K9FjtQQ=k-s128" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/523612/karl-knechtel"><img  height="18" width="18" alt="Karl Knechtel: 4d ago, 598 posts (0%)" title="Karl Knechtel: 4d ago, 598 posts (0%)" src="https://www.gravatar.com/avatar/4ae512dd708a619496d36b1f681f95e0?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/5292302/petter-friberg"><img  height="18" width="18" alt="Petter Friberg: 5d ago, 21015 posts (1%)" title="Petter Friberg: 5d ago, 21015 posts (1%)" src="https://www.gravatar.com/avatar/3b61b00d5bcb378f99eadff312544514?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/441757/sideshowbarker"><img  height="18" width="18" alt="sideshowbarker: 7d ago, 945 posts (0%)" title="sideshowbarker: 7d ago, 945 posts (0%)" src="https://www.gravatar.com/avatar/921df025d1d7c99fad4553ac83bd8bdf?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/2821954/andrew-t"><img  height="18" width="18" alt="Andrew T.: 10d ago, 142 posts (0%)" title="Andrew T.: 10d ago, 142 posts (0%)" src="https://i.stack.imgur.com/KAcfF.png?s=18&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/4548692/catija"><img  height="18" width="18" alt="Catija: 26d ago, 1049 posts (0%)" title="Catija: 26d ago, 1049 posts (0%)" src="https://i.stack.imgur.com/KBnkf.jpg?s=18&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/11407695/oleg-valter-is-with-ukraine"><img  height="18" width="18" alt="Oleg Valter is with Ukraine: 26d ago, 634 posts (0%)" title="Oleg Valter is with Ukraine: 26d ago, 634 posts (0%)" src="https://www.gravatar.com/avatar/6e780ea997ca2280a7e2db311220a563?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/366904/cody-gray"><img  height="18" width="18" alt="Cody Gray: 43d ago, 25664 posts (2%)" title="Cody Gray: 43d ago, 25664 posts (2%)" src="https://www.gravatar.com/avatar/d6fb1085928ee50debdb0a287f6e9503?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/792066/braiam"><img  height="18" width="18" alt="Braiam: 52d ago, 16135 posts (1%)" title="Braiam: 52d ago, 16135 posts (1%)" src="https://www.gravatar.com/avatar/fe47011419fe78b6f8411e909cee9215?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/845414/johannes-kuhn"><img  height="18" width="18" alt="Johannes Kuhn: 154d ago, 49 posts (0%)" title="Johannes Kuhn: 154d ago, 49 posts (0%)" src="https://www.gravatar.com/avatar/8fbe63f77ce3f9656c62b27db4d8583b?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+ 
+            --></div>
+        </div>
+ 
+        <div class="room-message-count" title="1202321 all time messages">
+            <a href="/transcript/41570">1202k</a>
+        </div>
+        <div class="room-user-count" title="all time users">1739</div>
+        <div class="room-info-link">
+    <a href="/rooms/info/41570/so-close-vote-reviewers">info</a>
+    </div>
+ 
+    </div>
+
+    <div id="room-90230" class="roomcard">
+        <div class="room-header">
+                <div title="Toggle as a favorite room" class="favorite-room-vote"> </div>
+            <h3>
+
+                <span style="display:inline-block" class="sprite sprite-sec-gallery" title="Gallery: anyone may enter, but only approved users can talk"></span><span title="Moderators have full access to this room">&#9830;</span>&nbsp;<span class="room-name" title="SOCVR Request Graveyard"><a rel="noreferrer noopener" href="/rooms/90230/socvr-request-graveyard">SOCVR Request Graveyard</a></span>
+            </h3>
+            <img class="small-site-logo" title="Stack Overflow" alt="Stack Overflow" width="16" height="16" src="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=dc" />
+            <div class="room-description" title="This room is ONLY to receive action requests (cv-pls, etc.) from SOCVR; it is intended as an archive for easy searching. DO NOT TALK HERE. For more, see http://socvr.org/faq#why-do-you-invite-me-to-the-cv-request-graveyard-room">This room is ONLY to receive action requests (cv-pls, etc.) from SOCVR; it is intended as an archive for easy searching. DO NOT TALK HERE. For more, see http://socvr.org/faq#why-do-you-invite-me-to-the-cv-request-graveyard-room</div>           
+            <div class="clear-both"></div>
+        </div>
+        <div class="room-details">
+                        <div class="mini-room-chart" title="Typical room activity over a 24-hour period; current time is highlighted">
+                            <div class="mspark" style="height:25px;width:192px">
+<div class="mspbar" style="width:8px;height:10px;left:0px;"></div><div class="mspbar" style="width:8px;height:9px;left:8px;"></div><div class="mspbar" style="width:8px;height:9px;left:16px;"></div><div class="mspbar" style="width:8px;height:11px;left:24px;"></div><div class="mspbar" style="width:8px;height:11px;left:32px;"></div><div class="mspbar" style="width:8px;height:16px;left:40px;"></div><div class="mspbar" style="width:8px;height:20px;left:48px;"></div><div class="mspbar" style="width:8px;height:23px;left:56px;"></div><div class="mspbar" style="width:8px;height:23px;left:64px;"></div><div class="mspbar" style="width:8px;height:23px;left:72px;"></div><div class="mspbar" style="width:8px;height:20px;left:80px;"></div><div class="mspbar" style="width:8px;height:22px;left:88px;"></div><div class="mspbar" style="width:8px;height:25px;left:96px;"></div><div class="mspbar" style="width:8px;height:22px;left:104px;"></div><div class="mspbar" style="width:8px;height:20px;left:112px;"></div><div class="mspbar" style="width:8px;height:23px;left:120px;"></div><div class="mspbar" style="width:8px;height:19px;left:128px;"></div><div class="mspbar" style="width:8px;height:21px;left:136px;"></div><div class="mspbar" style="width:8px;height:21px;left:144px;"></div><div class="mspbar" style="width:8px;height:16px;left:152px;"></div><div class="mspbar" style="width:8px;height:16px;left:160px;"></div><div class="mspbar" style="width:8px;height:13px;left:168px;"></div><div class="mspbar" style="width:8px;height:15px;left:176px;"></div><div class="mspbar" style="width:8px;height:11px;left:184px;"></div><div class="mspbar now" style="height:25px;left:85px;"></div></div>
+
+                        </div>
+
+            
+            <div class="cycle">
+                <div class="last-activity">18m ago &ndash; <a href="/users/1839439/dharman" title="Dharman">Dharman</a></div>
+            </div>
+            <div class="room-users" title="1 user present"><!-- 
+                    --><a class="user-gravatar32" href="/users/3744182/dbc"><img  height="32" width="32" alt="dbc: 43d ago, 1599 posts (0%)" title="dbc: 43d ago, 1599 posts (0%)" src="https://www.gravatar.com/avatar/6ab1dca8193d1b5734ba07702e963b6e?s=32&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+ 
+            --></div>
+        </div>
+ 
+        <div class="room-message-count" title="480224 all time messages">
+            <a href="/transcript/90230">480k</a>
+        </div>
+        <div class="room-user-count" title="all time users">574</div>
+        <div class="room-info-link">
+    <a href="/rooms/info/90230/socvr-request-graveyard">info</a>
+    </div>
+ 
+    </div>
+
+    <div id="room-11" class="roomcard">
+        <div class="room-header">
+                <div title="Toggle as a favorite room" class="favorite-room-vote"> </div>
+            <h3>
+
+                <span class="room-name" title="PHP"><a rel="noreferrer noopener" href="/rooms/11/php">PHP</a></span>
+            </h3>
+            <img class="small-site-logo" title="Stack Overflow" alt="Stack Overflow" width="16" height="16" src="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=dc" />
+            <div class="room-description" title="Support group for those afflicted with PHP. Don&#39;t ask to ask, just ask. Username auto complete is *tab*, not enter. Spa&#223; ist verboten. Chat Guidelines: https://room-11.github.io/ LXR: https://heap.space/">Support group for those afflicted with PHP. Don&#39;t ask to ask, just ask. Username auto complete is *tab*, not enter. Spa&#223; ist verboten. Chat Guidelines: https://room-11.github.io/ LXR: https://heap.space/</div>           
+            <div class="clear-both"></div>
+        </div>
+        <div class="room-details">
+                        <div class="mini-room-chart" title="Typical room activity over a 24-hour period; current time is highlighted">
+                            <div class="mspark" style="height:25px;width:192px">
+<div class="mspbar" style="width:8px;height:6px;left:0px;"></div><div class="mspbar" style="width:8px;height:9px;left:8px;"></div><div class="mspbar" style="width:8px;height:2px;left:16px;"></div><div class="mspbar" style="width:8px;height:1px;left:24px;"></div><div class="mspbar" style="width:8px;height:1px;left:32px;"></div><div class="mspbar" style="width:8px;height:0px;left:40px;"></div><div class="mspbar" style="width:8px;height:0px;left:48px;"></div><div class="mspbar" style="width:8px;height:1px;left:56px;"></div><div class="mspbar" style="width:8px;height:2px;left:64px;"></div><div class="mspbar" style="width:8px;height:6px;left:72px;"></div><div class="mspbar" style="width:8px;height:7px;left:80px;"></div><div class="mspbar" style="width:8px;height:2px;left:88px;"></div><div class="mspbar" style="width:8px;height:9px;left:96px;"></div><div class="mspbar" style="width:8px;height:10px;left:104px;"></div><div class="mspbar" style="width:8px;height:14px;left:112px;"></div><div class="mspbar" style="width:8px;height:18px;left:120px;"></div><div class="mspbar" style="width:8px;height:21px;left:128px;"></div><div class="mspbar" style="width:8px;height:24px;left:136px;"></div><div class="mspbar" style="width:8px;height:19px;left:144px;"></div><div class="mspbar" style="width:8px;height:14px;left:152px;"></div><div class="mspbar" style="width:8px;height:25px;left:160px;"></div><div class="mspbar" style="width:8px;height:23px;left:168px;"></div><div class="mspbar" style="width:8px;height:6px;left:176px;"></div><div class="mspbar" style="width:8px;height:6px;left:184px;"></div><div class="mspbar now" style="height:25px;left:85px;"></div></div>
+
+                        </div>
+
+            
+            <div class="cycle">
+                <div class="last-activity">35m ago &ndash; <a href="/users/1418190/cmb" title="cmb">cmb</a></div>
+            </div>
+            <div class="room-users" title="21 users present"><!-- 
+                    --><a class="user-gravatar18" href="/users/1418190/cmb"><img  height="18" width="18" alt="cmb: 35m ago, 8963 posts (0%)" title="cmb: 35m ago, 8963 posts (0%)" src="https://www.gravatar.com/avatar/c1ef2a4d9d1116fa1cb7a9e713bdac52?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.50;-moz-opacity:0.50;filter:alpha(opacity=50);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/508057/derick"><img  height="18" width="18" alt="Derick: 41m ago, 13063 posts (0%)" title="Derick: 41m ago, 13063 posts (0%)" src="https://i.stack.imgur.com/wEXdr.jpg?s=18&amp;g=1" style="opacity:0.41;-moz-opacity:0.41;filter:alpha(opacity=41);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/1238574/brzuchal"><img  height="18" width="18" alt="brzuchal: 44m ago, 11034 posts (0%)" title="brzuchal: 44m ago, 11034 posts (0%)" src="https://www.gravatar.com/avatar/db159dd7fb3f06110f6a0f980a3b319c?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.36;-moz-opacity:0.36;filter:alpha(opacity=36);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/324019/allenjb"><img  height="18" width="18" alt="AllenJB: 1h ago, 1256 posts (0%)" title="AllenJB: 1h ago, 1256 posts (0%)" src="https://www.gravatar.com/avatar/37b3951eafe6635d448cdffd197884d5?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/6998123/mega6382"><img  height="18" width="18" alt="mega6382: 5h ago, 14543 posts (0%)" title="mega6382: 5h ago, 14543 posts (0%)" src="https://i.stack.imgur.com/VDwq0.gif?s=18&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/5858238/nyconing"><img  height="18" width="18" alt="nyconing: 5h ago, 13 posts (0%)" title="nyconing: 5h ago, 13 posts (0%)" src="https://i.stack.imgur.com/a1hN4.png?s=18&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/778719/danack"><img  height="18" width="18" alt="Danack: 6h ago, 64899 posts (1%)" title="Danack: 6h ago, 64899 posts (1%)" src="https://i.stack.imgur.com/B4v0w.jpg?s=18&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/939630/tpojka"><img  height="18" width="18" alt="Tpojka: 12h ago, 3346 posts (0%)" title="Tpojka: 12h ago, 3346 posts (0%)" src="https://www.gravatar.com/avatar/70a9d6afd5b244182342a76d03d58a88?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/19989383/jimbus"><img  height="18" width="18" alt="Jimbus: 14h ago, 303 posts (0%)" title="Jimbus: 14h ago, 303 posts (0%)" src="https://i.stack.imgur.com/fU0rE.jpg?s=18&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/606925/crell"><img  height="18" width="18" alt="Crell: 15h ago, 14701 posts (0%)" title="Crell: 15h ago, 14701 posts (0%)" src="https://www.gravatar.com/avatar/621c389c46a307318e21d1b535790a5d?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/538216/levi-morrison"><img  height="18" width="18" alt="Levi Morrison: 18h ago, 76706 posts (2%)" title="Levi Morrison: 18h ago, 76706 posts (2%)" src="https://www.gravatar.com/avatar/e91a4b631b4bb7f0c477626617dd3926?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/4501442/sal-orozco"><img  height="18" width="18" alt="Sal Orozco: 18h ago, 3901 posts (0%)" title="Sal Orozco: 18h ago, 3901 posts (0%)" src="https://i.stack.imgur.com/OQoZK.jpg?s=18&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/11948443/mark-r"><img  height="18" width="18" alt="Mark R: 2d ago, 16300 posts (0%)" title="Mark R: 2d ago, 16300 posts (0%)" src="https://i.stack.imgur.com/o6Sln.jpg?s=18&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/526171/jrl"><img  height="18" width="18" alt="JRL: 3d ago, 5151 posts (0%)" title="JRL: 3d ago, 5151 posts (0%)" src="https://www.gravatar.com/avatar/eb24a27983fa0b5e371c1b5b23b7e07d?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/2153758/bwoebi"><img  height="18" width="18" alt="bwoebi: 3d ago, 104000 posts (2%)" title="bwoebi: 3d ago, 104000 posts (2%)" src="https://i.stack.imgur.com/oEgTs.png?s=18&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/1658631/joe-watkins"><img  height="18" width="18" alt="Joe Watkins: 16d ago, 113482 posts (3%)" title="Joe Watkins: 16d ago, 113482 posts (3%)" src="https://i.stack.imgur.com/wP8B0.jpg?s=18&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/338665/ircmaxell"><img  height="18" width="18" alt="ircmaxell: 28d ago, 117444 posts (3%)" title="ircmaxell: 28d ago, 117444 posts (3%)" src="https://www.gravatar.com/avatar/a32a990c257433d3252980e059341546?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/576875/arnaud-le-blanc"><img  height="18" width="18" alt="Arnaud Le Blanc: 54d ago, 36 posts (0%)" title="Arnaud Le Blanc: 54d ago, 36 posts (0%)" src="https://i.stack.imgur.com/WNlaL.jpg?s=18&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/201453/patrick-allaert"><img  height="18" width="18" alt="Patrick Allaert: 146d ago, 576 posts (0%)" title="Patrick Allaert: 146d ago, 576 posts (0%)" src="https://www.gravatar.com/avatar/8c2ad298690cba4be2af448954d9f1d2?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/451726/404-not-found"><img  height="18" width="18" alt="404 Not Found: 301d ago, 8 posts (0%)" title="404 Not Found: 301d ago, 8 posts (0%)" src="https://www.gravatar.com/avatar/d1ad7c4d445fc9cedacdefeb2b5e213e?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/12201607/iamluc"><img  height="18" width="18" alt="iamluc: no posts" title="iamluc: no posts" src="https://www.gravatar.com/avatar/9bc6f21434cb820189f8c31da201a429?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+ 
+            --></div>
+        </div>
+ 
+        <div class="room-message-count" title="3569822 all time messages">
+            <a href="/transcript/11">3570k</a>
+        </div>
+        <div class="room-user-count" title="all time users">10441</div>
+        <div class="room-info-link">
+    <a href="/rooms/info/11/php">info</a>
+    </div>
+ 
+    </div>
+
+    <div id="room-15" class="roomcard">
+        <div class="room-header">
+                <div title="Toggle as a favorite room" class="favorite-room-vote"> </div>
+            <h3>
+
+                <span class="room-name" title="Android"><a rel="noreferrer noopener" href="/rooms/15/android">Android</a></span>
+            </h3>
+            <img class="small-site-logo" title="Stack Overflow" alt="Stack Overflow" width="16" height="16" src="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=dc" />
+            <div class="room-description" title="Sometimes we even talk about Android. Please read the rules (http://room-15.github.io/). Remember that this is a chat room, not a helpdesk.">Sometimes we even talk about Android. Please read the rules (http://room-15.github.io/). Remember that this is a chat room, not a helpdesk.</div>           
+            <div class="clear-both"></div>
+        </div>
+        <div class="room-details">
+                        <div class="mini-room-chart" title="Typical room activity over a 24-hour period; current time is highlighted">
+                            <div class="mspark" style="height:25px;width:192px">
+<div class="mspbar" style="width:8px;height:0px;left:0px;"></div><div class="mspbar" style="width:8px;height:1px;left:8px;"></div><div class="mspbar" style="width:8px;height:0px;left:16px;"></div><div class="mspbar" style="width:8px;height:0px;left:24px;"></div><div class="mspbar" style="width:8px;height:0px;left:32px;"></div><div class="mspbar" style="width:8px;height:0px;left:40px;"></div><div class="mspbar" style="width:8px;height:1px;left:48px;"></div><div class="mspbar" style="width:8px;height:2px;left:56px;"></div><div class="mspbar" style="width:8px;height:2px;left:64px;"></div><div class="mspbar" style="width:8px;height:4px;left:72px;"></div><div class="mspbar" style="width:8px;height:7px;left:80px;"></div><div class="mspbar" style="width:8px;height:10px;left:88px;"></div><div class="mspbar" style="width:8px;height:5px;left:96px;"></div><div class="mspbar" style="width:8px;height:19px;left:104px;"></div><div class="mspbar" style="width:8px;height:16px;left:112px;"></div><div class="mspbar" style="width:8px;height:14px;left:120px;"></div><div class="mspbar" style="width:8px;height:25px;left:128px;"></div><div class="mspbar" style="width:8px;height:17px;left:136px;"></div><div class="mspbar" style="width:8px;height:10px;left:144px;"></div><div class="mspbar" style="width:8px;height:9px;left:152px;"></div><div class="mspbar" style="width:8px;height:8px;left:160px;"></div><div class="mspbar" style="width:8px;height:9px;left:168px;"></div><div class="mspbar" style="width:8px;height:8px;left:176px;"></div><div class="mspbar" style="width:8px;height:4px;left:184px;"></div><div class="mspbar now" style="height:25px;left:85px;"></div></div>
+
+                        </div>
+
+            
+            <div class="cycle">
+                <div class="last-activity">36m ago &ndash; <a href="/users/180538/warrenfaith" title="WarrenFaith">WarrenFaith</a></div>
+            </div>
+            <div class="room-users" title="10 users present"><!-- 
+                    --><a class="user-gravatar32" href="/users/180538/warrenfaith"><img  height="32" width="32" alt="WarrenFaith: 36m ago, 55143 posts (2%)" title="WarrenFaith: 36m ago, 55143 posts (2%)" src="https://www.gravatar.com/avatar/241aa8bb2a154108277e22ed03508ab0?s=32&amp;d=identicon&amp;r=PG" style="opacity:0.48;-moz-opacity:0.48;filter:alpha(opacity=48);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/1843331/tim"><img  height="32" width="32" alt="Tim: 18h ago, 74664 posts (3%)" title="Tim: 18h ago, 74664 posts (3%)" src="https://i.stack.imgur.com/aVX5R.jpg?s=32&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/7886229/jbis"><img  height="32" width="32" alt="JBis: 2d ago, 22218 posts (0%)" title="JBis: 2d ago, 22218 posts (0%)" src="https://i.stack.imgur.com/nLcnP.png?s=32&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/2411667/mark-osullivan"><img  height="32" width="32" alt="Mark O&#39;Sullivan: 2d ago, 23065 posts (1%)" title="Mark O&#39;Sullivan: 2d ago, 23065 posts (1%)" src="https://i.stack.imgur.com/PuTWR.jpg?s=32&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/4070469/mauker"><img  height="32" width="32" alt="Mauker: 2d ago, 47385 posts (2%)" title="Mauker: 2d ago, 47385 posts (2%)" src="https://i.stack.imgur.com/OKYPb.png?s=32&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/1440565/code-apprentice"><img  height="32" width="32" alt="Code-Apprentice: 16d ago, 28765 posts (1%)" title="Code-Apprentice: 16d ago, 28765 posts (1%)" src="https://www.gravatar.com/avatar/ec430cc01ef4cf4ae63ebbe9e8596f72?s=32&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/2703276/pochmurnik"><img  height="32" width="32" alt="Pochmurnik: 16d ago, 1187 posts (0%)" title="Pochmurnik: 16d ago, 1187 posts (0%)" src="https://www.gravatar.com/avatar/3d142cf7e29cfb465361a7966adf912a?s=32&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/11518920/jamesbot"><img  height="32" width="32" alt="JamesBot: 19d ago, 1296 posts (0%)" title="JamesBot: 19d ago, 1296 posts (0%)" src="https://i.stack.imgur.com/DHbov.png?s=32&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/5858238/nyconing"><img  height="32" width="32" alt="nyconing: 63d ago, 1113 posts (0%)" title="nyconing: 63d ago, 1113 posts (0%)" src="https://i.stack.imgur.com/a1hN4.png?s=32&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/1069068/raghav-sood"><img  height="32" width="32" alt="Raghav Sood: 82d ago, 94794 posts (4%)" title="Raghav Sood: 82d ago, 94794 posts (4%)" src="https://i.stack.imgur.com/vw9qZ.png?s=32&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+ 
+            --></div>
+        </div>
+ 
+        <div class="room-message-count" title="2286552 all time messages">
+            <a href="/transcript/15">2287k</a>
+        </div>
+        <div class="room-user-count" title="all time users">2571</div>
+        <div class="room-info-link">
+    <a href="/rooms/info/15/android">info</a>
+    </div>
+ 
+    </div>
+
+    <div id="room-210607" class="roomcard">
+        <div class="room-header">
+                <div title="Toggle as a favorite room" class="favorite-room-vote"> </div>
+            <h3>
+
+                <span class="room-name" title="Let me talk to myself"><a rel="noreferrer noopener" href="/rooms/210607/let-me-talk-to-myself">Let me talk to myself</a></span>
+            </h3>
+            <img class="small-site-logo" title="Stack Overflow" alt="Stack Overflow" width="16" height="16" src="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=dc" />
+            <div class="room-description" title="Just for me... Keeping track of PHP posts">Just for me... Keeping track of PHP posts</div>           
+            <div class="clear-both"></div>
+        </div>
+        <div class="room-details">
+                        <div class="mini-room-chart" title="Typical room activity over a 24-hour period; current time is highlighted">
+                            <div class="mspark" style="height:25px;width:192px">
+<div class="mspbar" style="width:8px;height:12px;left:0px;"></div><div class="mspbar" style="width:8px;height:11px;left:8px;"></div><div class="mspbar" style="width:8px;height:11px;left:16px;"></div><div class="mspbar" style="width:8px;height:12px;left:24px;"></div><div class="mspbar" style="width:8px;height:10px;left:32px;"></div><div class="mspbar" style="width:8px;height:9px;left:40px;"></div><div class="mspbar" style="width:8px;height:15px;left:48px;"></div><div class="mspbar" style="width:8px;height:15px;left:56px;"></div><div class="mspbar" style="width:8px;height:13px;left:64px;"></div><div class="mspbar" style="width:8px;height:15px;left:72px;"></div><div class="mspbar" style="width:8px;height:15px;left:80px;"></div><div class="mspbar" style="width:8px;height:18px;left:88px;"></div><div class="mspbar" style="width:8px;height:16px;left:96px;"></div><div class="mspbar" style="width:8px;height:25px;left:104px;"></div><div class="mspbar" style="width:8px;height:25px;left:112px;"></div><div class="mspbar" style="width:8px;height:19px;left:120px;"></div><div class="mspbar" style="width:8px;height:19px;left:128px;"></div><div class="mspbar" style="width:8px;height:22px;left:136px;"></div><div class="mspbar" style="width:8px;height:17px;left:144px;"></div><div class="mspbar" style="width:8px;height:18px;left:152px;"></div><div class="mspbar" style="width:8px;height:18px;left:160px;"></div><div class="mspbar" style="width:8px;height:19px;left:168px;"></div><div class="mspbar" style="width:8px;height:14px;left:176px;"></div><div class="mspbar" style="width:8px;height:11px;left:184px;"></div><div class="mspbar now" style="height:25px;left:85px;"></div></div>
+
+                        </div>
+
+            
+            <div class="cycle">
+                <div class="last-activity">51m ago &ndash; <a href="/users/11995760/dharmanbot" title="DharmanBot">DharmanBot</a></div>
+            </div>
+            <div class="room-users" title="1 user present"><!-- 
+                    --><a class="user-gravatar32" href="/users/1839439/dharman"><img  height="32" width="32" alt="Dharman: 20d ago, 828 posts (1%)" title="Dharman: 20d ago, 828 posts (1%)" src="https://i.stack.imgur.com/agMKZ.png?s=32&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+ 
+            --></div>
+        </div>
+ 
+        <div class="room-message-count" title="70128 all time messages">
+            <a href="/transcript/210607">70.1k</a>
+        </div>
+        <div class="room-user-count" title="all time users">25</div>
+        <div class="room-info-link">
+    <a href="/rooms/info/210607/let-me-talk-to-myself">info</a>
+    </div>
+ 
+    </div>
+
+    <div id="room-7" class="roomcard">
+        <div class="room-header">
+                <div title="Toggle as a favorite room" class="favorite-room-vote"> </div>
+            <h3>
+
+                <span class="room-name" title="C#"><a rel="noreferrer noopener" href="/rooms/7/c">C#</a></span>
+            </h3>
+            <img class="small-site-logo" title="Stack Overflow" alt="Stack Overflow" width="16" height="16" src="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=dc" />
+            <div class="room-description" title="General discussions about the c# language, Squirrels | http://gist.github.com - For Easy Code Pasting | http://stackoverflow.com/help/privileges/flag-posts - Please read the flagging rules before flagging a post as spam | Often mistaken for rubber ducks | Due to recent ban waves, here&#39;s a link to our community discord https://discord.gg/PNMq3pBSUe ">General discussions about the c# language, Squirrels | http://gist.github.com - For Easy Code Pasting | http://stackoverflow.com/help/privileges/flag-posts - Please read the flagging rules before flagging a post as spam | Often mistaken for rubber ducks | Due to recent ban waves, here&#39;s a link to our community discord https://discord.gg/PNMq3pBSUe </div>           
+            <div class="clear-both"></div>
+        </div>
+        <div class="room-details">
+                        <div class="mini-room-chart" title="Typical room activity over a 24-hour period; current time is highlighted">
+                            <div class="mspark" style="height:25px;width:192px">
+<div class="mspbar" style="width:8px;height:1px;left:0px;"></div><div class="mspbar" style="width:8px;height:1px;left:8px;"></div><div class="mspbar" style="width:8px;height:0px;left:16px;"></div><div class="mspbar" style="width:8px;height:0px;left:24px;"></div><div class="mspbar" style="width:8px;height:3px;left:32px;"></div><div class="mspbar" style="width:8px;height:2px;left:40px;"></div><div class="mspbar" style="width:8px;height:2px;left:48px;"></div><div class="mspbar" style="width:8px;height:9px;left:56px;"></div><div class="mspbar" style="width:8px;height:10px;left:64px;"></div><div class="mspbar" style="width:8px;height:13px;left:72px;"></div><div class="mspbar" style="width:8px;height:9px;left:80px;"></div><div class="mspbar" style="width:8px;height:8px;left:88px;"></div><div class="mspbar" style="width:8px;height:18px;left:96px;"></div><div class="mspbar" style="width:8px;height:25px;left:104px;"></div><div class="mspbar" style="width:8px;height:10px;left:112px;"></div><div class="mspbar" style="width:8px;height:9px;left:120px;"></div><div class="mspbar" style="width:8px;height:3px;left:128px;"></div><div class="mspbar" style="width:8px;height:5px;left:136px;"></div><div class="mspbar" style="width:8px;height:1px;left:144px;"></div><div class="mspbar" style="width:8px;height:1px;left:152px;"></div><div class="mspbar" style="width:8px;height:1px;left:160px;"></div><div class="mspbar" style="width:8px;height:0px;left:168px;"></div><div class="mspbar" style="width:8px;height:2px;left:176px;"></div><div class="mspbar" style="width:8px;height:1px;left:184px;"></div><div class="mspbar now" style="height:25px;left:85px;"></div></div>
+
+                        </div>
+
+            
+            <div class="cycle">
+                <div class="last-activity">1h ago &ndash; <a href="/users/4364057/squirrelkiller" title="Squirrelkiller">Squirrelkiller</a></div>
+            </div>
+            <div class="room-users" title="10 users present"><!-- 
+                    --><a class="user-gravatar32" href="/users/4364057/squirrelkiller"><img  height="32" width="32" alt="Squirrelkiller: 1h ago, 43351 posts (1%)" title="Squirrelkiller: 1h ago, 43351 posts (1%)" src="https://i.stack.imgur.com/9KoUZ.jpg?s=32&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/706867/darj"><img  height="32" width="32" alt="Darj: 2h ago, 3045 posts (0%)" title="Darj: 2h ago, 3045 posts (0%)" src="https://i.stack.imgur.com/o7im6.jpg?s=32&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/13750349/botler"><img  height="32" width="32" alt="Botler: 15h ago, 13902 posts (0%)" title="Botler: 15h ago, 13902 posts (0%)" src="https://i.stack.imgur.com/CmZDs.jpg?s=32&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/2764866/wietlol"><img  height="32" width="32" alt="Wietlol: 18h ago, 85316 posts (2%)" title="Wietlol: 18h ago, 85316 posts (2%)" src="https://i.stack.imgur.com/cUip8.png?s=32&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/3689450/vlaz"><img  height="32" width="32" alt="VLAZ: 19h ago, 930 posts (0%)" title="VLAZ: 19h ago, 930 posts (0%)" src="https://i.stack.imgur.com/SXuSRm.png?s=32&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/5858238/nyconing"><img  height="32" width="32" alt="nyconing: 19h ago, 13120 posts (0%)" title="nyconing: 19h ago, 13120 posts (0%)" src="https://i.stack.imgur.com/a1hN4.png?s=32&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/11518920/jamesbot"><img  height="32" width="32" alt="JamesBot: 21h ago, 560 posts (0%)" title="JamesBot: 21h ago, 560 posts (0%)" src="https://i.stack.imgur.com/DHbov.png?s=32&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/1859959/ntohl"><img  height="32" width="32" alt="ntohl: 13d ago, 19155 posts (0%)" title="ntohl: 13d ago, 19155 posts (0%)" src="https://i.stack.imgur.com/GWKnc.png?s=32&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/4993856/jonno"><img  height="32" width="32" alt="Jonno: no posts" title="Jonno: no posts" src="https://lh5.googleusercontent.com/-JlSs8YaTMZ4/AAAAAAAAAAI/AAAAAAAAAcw/wmgChwmG7lg/photo.jpg?sz=128" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/3773011/makyen"><img  height="32" width="32" alt="Makyen: no posts" title="Makyen: no posts" src="https://i.stack.imgur.com/Hmfxy.jpg?s=32&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+ 
+            --></div>
+        </div>
+ 
+        <div class="room-message-count" title="2869144 all time messages">
+            <a href="/transcript/7">2869k</a>
+        </div>
+        <div class="room-user-count" title="all time users">7228</div>
+        <div class="room-info-link">
+    <a href="/rooms/info/7/c">info</a>
+    </div>
+ 
+    </div>
+
+    <div id="room-202954" class="roomcard">
+        <div class="room-header">
+                <div title="Toggle as a favorite room" class="favorite-room-vote"> </div>
+            <h3>
+
+                <span class="room-name" title="Charcoal Test SO"><a rel="noreferrer noopener" href="/rooms/202954/charcoal-test-so">Charcoal Test SO</a></span>
+            </h3>
+            <img class="small-site-logo" title="Stack Overflow" alt="Stack Overflow" width="16" height="16" src="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=dc" />
+            <div class="room-description" title="Test results from various unofficial Charcoal clients. If you want to chat, probably go to the main room, Charcoal HQ, instead: https://chat.stackexchange.com/rooms/11540/charcoal-hq">Test results from various unofficial Charcoal clients. If you want to chat, probably go to the main room, Charcoal HQ, instead: https://chat.stackexchange.com/rooms/11540/charcoal-hq</div>           
+            <div class="clear-both"></div>
+        </div>
+        <div class="room-details">
+                        <div class="mini-room-chart" title="Typical room activity over a 24-hour period; current time is highlighted">
+                            <div class="mspark" style="height:25px;width:192px">
+<div class="mspbar" style="width:8px;height:5px;left:0px;"></div><div class="mspbar" style="width:8px;height:6px;left:8px;"></div><div class="mspbar" style="width:8px;height:6px;left:16px;"></div><div class="mspbar" style="width:8px;height:6px;left:24px;"></div><div class="mspbar" style="width:8px;height:13px;left:32px;"></div><div class="mspbar" style="width:8px;height:23px;left:40px;"></div><div class="mspbar" style="width:8px;height:25px;left:48px;"></div><div class="mspbar" style="width:8px;height:23px;left:56px;"></div><div class="mspbar" style="width:8px;height:19px;left:64px;"></div><div class="mspbar" style="width:8px;height:16px;left:72px;"></div><div class="mspbar" style="width:8px;height:23px;left:80px;"></div><div class="mspbar" style="width:8px;height:24px;left:88px;"></div><div class="mspbar" style="width:8px;height:25px;left:96px;"></div><div class="mspbar" style="width:8px;height:19px;left:104px;"></div><div class="mspbar" style="width:8px;height:14px;left:112px;"></div><div class="mspbar" style="width:8px;height:9px;left:120px;"></div><div class="mspbar" style="width:8px;height:13px;left:128px;"></div><div class="mspbar" style="width:8px;height:10px;left:136px;"></div><div class="mspbar" style="width:8px;height:9px;left:144px;"></div><div class="mspbar" style="width:8px;height:8px;left:152px;"></div><div class="mspbar" style="width:8px;height:6px;left:160px;"></div><div class="mspbar" style="width:8px;height:4px;left:168px;"></div><div class="mspbar" style="width:8px;height:11px;left:176px;"></div><div class="mspbar" style="width:8px;height:4px;left:184px;"></div><div class="mspbar now" style="height:25px;left:85px;"></div></div>
+
+                        </div>
+
+            
+            <div class="cycle">
+                <div class="last-activity">1h ago &ndash; <a href="/users/3735529/smokedetector" title="SmokeDetector">SmokeDetector</a></div>
+            </div>
+            <div class="room-users" title="1 user present"><!-- 
+                    --><a class="user-gravatar32" href="/users/3735529/smokedetector"><img  height="32" width="32" alt="SmokeDetector: 1h ago, 85481 posts (99%)" title="SmokeDetector: 1h ago, 85481 posts (99%)" src="https://i.stack.imgur.com/7cmCt.png?s=32&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+ 
+            --></div>
+        </div>
+ 
+        <div class="room-message-count" title="86229 all time messages">
+            <a href="/transcript/202954">86.2k</a>
+        </div>
+        <div class="room-user-count" title="all time users">8</div>
+        <div class="room-info-link">
+    <a href="/rooms/info/202954/charcoal-test-so">info</a>
+    </div>
+ 
+    </div>
+
+    <div id="room-25767" class="roomcard">
+        <div class="room-header">
+                <div title="Toggle as a favorite room" class="favorite-room-vote"> </div>
+            <h3>
+
+                <span class="room-name" title="RegEx - Regular Expressions"><a rel="noreferrer noopener" href="/rooms/25767/regex-regular-expressions">RegEx - Regular Expressions</a></span>
+            </h3>
+            <img class="small-site-logo" title="Stack Overflow" alt="Stack Overflow" width="16" height="16" src="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=dc" />
+            <div class="room-description" title="Discuss about Regular Expressions. Learn at: http://www.Regular-Expressions.info / http://www.RexEgg.com / http://www.PCRE.org / http://RegEx.LearnCodeTheHardWay.org / Database: http://RegexLib.com / SO Reference: http://stackoverflow.com/q/22937618 / Online tester: http://regex101.com/">Discuss about Regular Expressions. Learn at: http://www.Regular-Expressions.info / http://www.RexEgg.com / http://www.PCRE.org / http://RegEx.LearnCodeTheHardWay.org / Database: http://RegexLib.com / SO Reference: http://stackoverflow.com/q/22937618 / Online tester: http://regex101.com/</div>           
+            <div class="clear-both"></div>
+        </div>
+        <div class="room-details">
+                        <div class="mini-room-chart" title="Typical room activity over a 24-hour period; current time is highlighted">
+                            <div class="mspark" style="height:25px;width:192px">
+<div class="mspbar" style="width:8px;height:4px;left:0px;"></div><div class="mspbar" style="width:8px;height:4px;left:8px;"></div><div class="mspbar" style="width:8px;height:12px;left:16px;"></div><div class="mspbar" style="width:8px;height:8px;left:32px;"></div><div class="mspbar" style="width:8px;height:4px;left:40px;"></div><div class="mspbar" style="width:8px;height:4px;left:48px;"></div><div class="mspbar" style="width:8px;height:12px;left:56px;"></div><div class="mspbar" style="width:8px;height:12px;left:72px;"></div><div class="mspbar" style="width:8px;height:8px;left:80px;"></div><div class="mspbar" style="width:8px;height:17px;left:88px;"></div><div class="mspbar" style="width:8px;height:4px;left:96px;"></div><div class="mspbar" style="width:8px;height:12px;left:104px;"></div><div class="mspbar" style="width:8px;height:8px;left:112px;"></div><div class="mspbar" style="width:8px;height:25px;left:120px;"></div><div class="mspbar" style="width:8px;height:4px;left:128px;"></div><div class="mspbar" style="width:8px;height:4px;left:136px;"></div><div class="mspbar" style="width:8px;height:21px;left:144px;"></div><div class="mspbar" style="width:8px;height:8px;left:152px;"></div><div class="mspbar" style="width:8px;height:12px;left:160px;"></div><div class="mspbar" style="width:8px;height:4px;left:184px;"></div><div class="mspbar now" style="height:25px;left:85px;"></div></div>
+
+                        </div>
+
+            
+            <div class="cycle">
+                <div class="last-activity">1h ago &ndash; <a href="/users/6294609/queen" title="Queen">Queen</a></div>
+            </div>
+            <div class="room-users" title="2 users present"><!-- 
+                    --><a class="user-gravatar32" href="/users/6294609/queen"><img  height="32" width="32" alt="Queen: 1h ago, 6872 posts (19%)" title="Queen: 1h ago, 6872 posts (19%)" src="https://i.stack.imgur.com/58jhk.jpg?s=32&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/7481043/generic-bot"><img  height="32" width="32" alt="Generic Bot: 403d ago, 46 posts (0%)" title="Generic Bot: 403d ago, 46 posts (0%)" src="https://i.stack.imgur.com/6DsXG.png?s=32&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+ 
+            --></div>
+        </div>
+ 
+        <div class="room-message-count" title="35220 all time messages">
+            <a href="/transcript/25767">35.2k</a>
+        </div>
+        <div class="room-user-count" title="all time users">365</div>
+        <div class="room-info-link">
+    <a href="/rooms/info/25767/regex-regular-expressions">info</a>
+    </div>
+ 
+    </div>
+
+    <div id="room-249677" class="roomcard">
+        <div class="room-header">
+                <div title="Toggle as a favorite room" class="favorite-room-vote"> </div>
+            <h3>
+
+                <span class="room-name" title="3D Graphics"><a rel="noreferrer noopener" href="/rooms/249677/3d-graphics">3D Graphics</a></span>
+            </h3>
+            <img class="small-site-logo" title="Stack Overflow" alt="Stack Overflow" width="16" height="16" src="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=dc" />
+            <div class="room-description" title="3D Software Development">3D Software Development</div>           
+            <div class="clear-both"></div>
+        </div>
+        <div class="room-details">
+                        <div class="mini-room-chart" title="Typical room activity over a 24-hour period; current time is highlighted">
+                            <div class="mspark" style="height:25px;width:192px">
+<div class="mspbar" style="width:8px;height:2px;left:48px;"></div><div class="mspbar" style="width:8px;height:3px;left:56px;"></div><div class="mspbar" style="width:8px;height:11px;left:64px;"></div><div class="mspbar" style="width:8px;height:25px;left:72px;"></div><div class="mspbar" style="width:8px;height:7px;left:80px;"></div><div class="mspbar" style="width:8px;height:5px;left:88px;"></div><div class="mspbar" style="width:8px;height:1px;left:96px;"></div><div class="mspbar" style="width:8px;height:3px;left:104px;"></div><div class="mspbar" style="width:8px;height:1px;left:112px;"></div><div class="mspbar" style="width:8px;height:0px;left:120px;"></div><div class="mspbar" style="width:8px;height:0px;left:128px;"></div><div class="mspbar" style="width:8px;height:1px;left:136px;"></div><div class="mspbar" style="width:8px;height:0px;left:144px;"></div><div class="mspbar" style="width:8px;height:1px;left:152px;"></div><div class="mspbar" style="width:8px;height:4px;left:160px;"></div><div class="mspbar" style="width:8px;height:0px;left:168px;"></div><div class="mspbar" style="width:8px;height:0px;left:176px;"></div><div class="mspbar now" style="height:25px;left:85px;"></div></div>
+
+                        </div>
+
+            
+            <div class="cycle">
+                <div class="last-activity">1h ago &ndash; <a href="/users/375666/ahmed-saleh" title="Ahmed Saleh">Ahmed Saleh</a></div>
+            </div>
+            <div class="room-users" title="1 user present"><!-- 
+                    --><a class="user-gravatar32" href="/users/375666/ahmed-saleh"><img  height="32" width="32" alt="Ahmed Saleh: 1h ago, 1032 posts (42%)" title="Ahmed Saleh: 1h ago, 1032 posts (42%)" src="https://www.gravatar.com/avatar/?s=128&amp;d=identicon&amp;r=PG&amp;f=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+ 
+            --></div>
+        </div>
+ 
+        <div class="room-message-count" title="2409 all time messages">
+            <a href="/transcript/249677">2.4k</a>
+        </div>
+        <div class="room-user-count" title="all time users">2</div>
+        <div class="room-info-link">
+    <a href="/rooms/info/249677/3d-graphics">info</a>
+    </div>
+ 
+    </div>
+
+    <div id="room-167908" class="roomcard">
+        <div class="room-header">
+                <div title="Toggle as a favorite room" class="favorite-room-vote"> </div>
+            <h3>
+
+                <span style="display:inline-block" class="sprite sprite-sec-gallery" title="Gallery: anyone may enter, but only approved users can talk"></span><span title="Moderators have full access to this room">&#9830;</span>&nbsp;<span class="room-name" title="SOBotics Workshop"><a rel="noreferrer noopener" href="/rooms/167908/sobotics-workshop">SOBotics Workshop</a></span>
+            </h3>
+            <img class="small-site-logo" title="Stack Overflow" alt="Stack Overflow" width="16" height="16" src="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=dc" />
+            <div class="room-description" title="A place to test new bots that will eventually graduate to the SOBotics main room. Github: https://sobotics.org/github | Redunda: https://sobotics.org/redunda | Channel: https://sobotics.org/team">A place to test new bots that will eventually graduate to the SOBotics main room. Github: https://sobotics.org/github | Redunda: https://sobotics.org/redunda | Channel: https://sobotics.org/team</div>           
+            <div class="clear-both"></div>
+        </div>
+        <div class="room-details">
+                        <div class="mini-room-chart" title="Typical room activity over a 24-hour period; current time is highlighted">
+                            <div class="mspark" style="height:25px;width:192px">
+<div class="mspbar" style="width:8px;height:6px;left:0px;"></div><div class="mspbar" style="width:8px;height:17px;left:8px;"></div><div class="mspbar" style="width:8px;height:19px;left:16px;"></div><div class="mspbar" style="width:8px;height:14px;left:24px;"></div><div class="mspbar" style="width:8px;height:11px;left:32px;"></div><div class="mspbar" style="width:8px;height:10px;left:40px;"></div><div class="mspbar" style="width:8px;height:12px;left:48px;"></div><div class="mspbar" style="width:8px;height:8px;left:56px;"></div><div class="mspbar" style="width:8px;height:8px;left:64px;"></div><div class="mspbar" style="width:8px;height:14px;left:72px;"></div><div class="mspbar" style="width:8px;height:18px;left:80px;"></div><div class="mspbar" style="width:8px;height:8px;left:88px;"></div><div class="mspbar" style="width:8px;height:24px;left:96px;"></div><div class="mspbar" style="width:8px;height:24px;left:104px;"></div><div class="mspbar" style="width:8px;height:18px;left:112px;"></div><div class="mspbar" style="width:8px;height:25px;left:120px;"></div><div class="mspbar" style="width:8px;height:18px;left:128px;"></div><div class="mspbar" style="width:8px;height:14px;left:136px;"></div><div class="mspbar" style="width:8px;height:11px;left:144px;"></div><div class="mspbar" style="width:8px;height:14px;left:152px;"></div><div class="mspbar" style="width:8px;height:14px;left:160px;"></div><div class="mspbar" style="width:8px;height:17px;left:168px;"></div><div class="mspbar" style="width:8px;height:10px;left:176px;"></div><div class="mspbar" style="width:8px;height:21px;left:184px;"></div><div class="mspbar now" style="height:25px;left:85px;"></div></div>
+
+                        </div>
+
+            
+            <div class="cycle">
+                <div class="last-activity">1h ago &ndash; <a href="/users/6294609/queen" title="Queen">Queen</a></div>
+            </div>
+            <div class="room-users" title="2 users present"><!-- 
+                    --><a class="user-gravatar32" href="/users/6294609/queen"><img  height="32" width="32" alt="Queen: 1h ago, 7218 posts (13%)" title="Queen: 1h ago, 7218 posts (13%)" src="https://i.stack.imgur.com/58jhk.jpg?s=32&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/7481043/generic-bot"><img  height="32" width="32" alt="Generic Bot: 403d ago, 298 posts (0%)" title="Generic Bot: 403d ago, 298 posts (0%)" src="https://i.stack.imgur.com/6DsXG.png?s=32&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+ 
+            --></div>
+        </div>
+ 
+        <div class="room-message-count" title="53199 all time messages">
+            <a href="/transcript/167908">53.2k</a>
+        </div>
+        <div class="room-user-count" title="all time users">64</div>
+        <div class="room-info-link">
+    <a href="/rooms/info/167908/sobotics-workshop">info</a>
+    </div>
+ 
+    </div>
+
+    <div id="room-75819" class="roomcard">
+        <div class="room-header">
+                <div title="Toggle as a favorite room" class="favorite-room-vote"> </div>
+            <h3>
+
+                <span style="display:inline-block" class="sprite sprite-sec-gallery" title="Gallery: anyone may enter, but only approved users can talk"></span><span title="Moderators have full access to this room">&#9830;</span>&nbsp;<span class="room-name" title="GMTs"><a rel="noreferrer noopener" href="/rooms/75819/gmts">GMTs</a></span>
+            </h3>
+            <img class="small-site-logo" title="Stack Overflow" alt="Stack Overflow" width="16" height="16" src="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=dc" />
+            <div class="room-description" title="General chat. Please read the FAQ for the rules or if you want write access or room ownership http://davidarenburg.github.io/GMTs/">General chat. Please read the FAQ for the rules or if you want write access or room ownership http://davidarenburg.github.io/GMTs/</div>           
+            <div class="clear-both"></div>
+        </div>
+        <div class="room-details">
+                        <div class="mini-room-chart" title="Typical room activity over a 24-hour period; current time is highlighted">
+                            <div class="mspark" style="height:25px;width:192px">
+<div class="mspbar" style="width:8px;height:1px;left:0px;"></div><div class="mspbar" style="width:8px;height:0px;left:8px;"></div><div class="mspbar" style="width:8px;height:3px;left:16px;"></div><div class="mspbar" style="width:8px;height:0px;left:24px;"></div><div class="mspbar" style="width:8px;height:1px;left:32px;"></div><div class="mspbar" style="width:8px;height:0px;left:40px;"></div><div class="mspbar" style="width:8px;height:3px;left:48px;"></div><div class="mspbar" style="width:8px;height:12px;left:56px;"></div><div class="mspbar" style="width:8px;height:19px;left:64px;"></div><div class="mspbar" style="width:8px;height:25px;left:72px;"></div><div class="mspbar" style="width:8px;height:17px;left:80px;"></div><div class="mspbar" style="width:8px;height:6px;left:88px;"></div><div class="mspbar" style="width:8px;height:6px;left:96px;"></div><div class="mspbar" style="width:8px;height:4px;left:104px;"></div><div class="mspbar" style="width:8px;height:7px;left:112px;"></div><div class="mspbar" style="width:8px;height:2px;left:120px;"></div><div class="mspbar" style="width:8px;height:4px;left:128px;"></div><div class="mspbar" style="width:8px;height:3px;left:136px;"></div><div class="mspbar" style="width:8px;height:6px;left:144px;"></div><div class="mspbar" style="width:8px;height:3px;left:152px;"></div><div class="mspbar" style="width:8px;height:3px;left:160px;"></div><div class="mspbar" style="width:8px;height:1px;left:168px;"></div><div class="mspbar" style="width:8px;height:1px;left:176px;"></div><div class="mspbar now" style="height:25px;left:85px;"></div></div>
+
+                        </div>
+
+            
+            <div class="cycle">
+                <div class="last-activity">1h ago &ndash; <a href="/users/680068/zx8754" title="zx8754">zx8754</a></div>
+            </div>
+            <div class="room-users" title="7 users present"><!-- 
+                    --><a class="user-gravatar32" href="/users/680068/zx8754"><img  height="32" width="32" alt="zx8754: 1h ago, 12684 posts (6%)" title="zx8754: 1h ago, 12684 posts (6%)" src="https://www.gravatar.com/avatar/73fd13cfacc3a0a0fc0a8c95f50d8a3f?s=32&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/6817005/natty"><img  height="32" width="32" alt="Natty: 6h ago, 1297 posts (0%)" title="Natty: 6h ago, 1297 posts (0%)" src="https://i.stack.imgur.com/aMUMt.jpg?s=32&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/6294609/queen"><img  height="32" width="32" alt="Queen: 18h ago, 4606 posts (2%)" title="Queen: 18h ago, 4606 posts (2%)" src="https://i.stack.imgur.com/58jhk.jpg?s=32&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/8245406/rui-barradas"><img  height="32" width="32" alt="Rui Barradas: 18h ago, 33 posts (0%)" title="Rui Barradas: 18h ago, 33 posts (0%)" src="https://www.gravatar.com/avatar/8fa3ab438fa0bb4c23c7a436c4f9b217?s=32&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/4137985/cath"><img  height="32" width="32" alt="Cath: 1d ago, 19334 posts (10%)" title="Cath: 1d ago, 19334 posts (10%)" src="https://i.stack.imgur.com/1laOB.jpg?s=32&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/322912/roman-lustrik"><img  height="32" width="32" alt="Roman Luštrik: 5d ago, 6278 posts (3%)" title="Roman Luštrik: 5d ago, 6278 posts (3%)" src="https://i.stack.imgur.com/ao2Pm.jpg?s=32&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/3627607/tensibai"><img  height="32" width="32" alt="Tensibai: 5d ago, 9840 posts (5%)" title="Tensibai: 5d ago, 9840 posts (5%)" src="https://www.gravatar.com/avatar/bd5fd623c0fdd0c93a2535cf6293ec5d?s=32&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+ 
+            --></div>
+        </div>
+ 
+        <div class="room-message-count" title="191753 all time messages">
+            <a href="/transcript/75819">192k</a>
+        </div>
+        <div class="room-user-count" title="all time users">165</div>
+        <div class="room-info-link">
+    <a href="/rooms/info/75819/gmts">info</a>
+    </div>
+ 
+    </div>
+
+    <div id="room-6" class="roomcard">
+        <div class="room-header">
+                <div title="Toggle as a favorite room" class="favorite-room-vote"> </div>
+            <h3>
+
+                <span class="room-name" title="Python"><a rel="noreferrer noopener" href="/rooms/6/python">Python</a></span>
+            </h3>
+            <img class="small-site-logo" title="Stack Overflow" alt="Stack Overflow" width="16" height="16" src="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=dc" />
+            <div class="room-description" title="Room rules: https://sopython.com/chatroom Code formatting guide: https://tinyurl.com/urnzp7k">Room rules: https://sopython.com/chatroom Code formatting guide: https://tinyurl.com/urnzp7k</div>           
+            <div class="clear-both"></div>
+        </div>
+        <div class="room-details">
+                        <div class="mini-room-chart" title="Typical room activity over a 24-hour period; current time is highlighted">
+                            <div class="mspark" style="height:25px;width:192px">
+<div class="mspbar" style="width:8px;height:0px;left:0px;"></div><div class="mspbar" style="width:8px;height:0px;left:8px;"></div><div class="mspbar" style="width:8px;height:1px;left:16px;"></div><div class="mspbar" style="width:8px;height:0px;left:24px;"></div><div class="mspbar" style="width:8px;height:1px;left:32px;"></div><div class="mspbar" style="width:8px;height:0px;left:40px;"></div><div class="mspbar" style="width:8px;height:1px;left:48px;"></div><div class="mspbar" style="width:8px;height:7px;left:56px;"></div><div class="mspbar" style="width:8px;height:13px;left:64px;"></div><div class="mspbar" style="width:8px;height:12px;left:72px;"></div><div class="mspbar" style="width:8px;height:24px;left:80px;"></div><div class="mspbar" style="width:8px;height:13px;left:88px;"></div><div class="mspbar" style="width:8px;height:25px;left:96px;"></div><div class="mspbar" style="width:8px;height:22px;left:104px;"></div><div class="mspbar" style="width:8px;height:17px;left:112px;"></div><div class="mspbar" style="width:8px;height:24px;left:120px;"></div><div class="mspbar" style="width:8px;height:25px;left:128px;"></div><div class="mspbar" style="width:8px;height:20px;left:136px;"></div><div class="mspbar" style="width:8px;height:12px;left:144px;"></div><div class="mspbar" style="width:8px;height:12px;left:152px;"></div><div class="mspbar" style="width:8px;height:14px;left:160px;"></div><div class="mspbar" style="width:8px;height:4px;left:168px;"></div><div class="mspbar" style="width:8px;height:6px;left:176px;"></div><div class="mspbar" style="width:8px;height:6px;left:184px;"></div><div class="mspbar now" style="height:25px;left:85px;"></div></div>
+
+                        </div>
+
+            
+            <div class="cycle">
+                <div class="last-activity">2h ago &ndash; <a href="/users/2904896/metatoaster" title="metatoaster">metatoaster</a></div>
+            </div>
+            <div class="room-users" title="18 users present"><!-- 
+                    --><a class="user-gravatar18" href="/users/2904896/metatoaster"><img  height="18" width="18" alt="metatoaster: 2h ago, 1322 posts (0%)" title="metatoaster: 2h ago, 1322 posts (0%)" src="https://www.gravatar.com/avatar/428748f4b24cb77ed1745007d95e1ef6?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/12349101/nordine-lotfi"><img  height="18" width="18" alt="Nordine Lotfi: 2h ago, 4519 posts (0%)" title="Nordine Lotfi: 2h ago, 4519 posts (0%)" src="https://www.gravatar.com/avatar/713f276bb0c0cf45db72653741522a73?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/12465136/aran-fey"><img  height="18" width="18" alt="Aran-Fey: 2h ago, 17401 posts (0%)" title="Aran-Fey: 2h ago, 17401 posts (0%)" src="https://i.stack.imgur.com/CCOmB.png?s=18&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/5349916/mistermiyagi"><img  height="18" width="18" alt="MisterMiyagi: 18h ago, 19042 posts (0%)" title="MisterMiyagi: 18h ago, 19042 posts (0%)" src="https://i.stack.imgur.com/QovYv.jpg?s=18&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/4792229/hakaishin"><img  height="18" width="18" alt="Hakaishin: 18h ago, 5752 posts (0%)" title="Hakaishin: 18h ago, 5752 posts (0%)" src="https://i.stack.imgur.com/SRv9x.jpg?s=18&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/777689/petert"><img  height="18" width="18" alt="PeterT: 18h ago, 233 posts (0%)" title="PeterT: 18h ago, 233 posts (0%)" src="https://i.stack.imgur.com/19JOo.jpg?s=18&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/7667219/mez13"><img  height="18" width="18" alt="Mez13: 21h ago, 301 posts (0%)" title="Mez13: 21h ago, 301 posts (0%)" src="https://www.gravatar.com/avatar/6070686f370345237ba9d6cfb40616d4?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/19619966/naveen-pandia"><img  height="18" width="18" alt="Naveen Pandia: 23h ago, 139 posts (0%)" title="Naveen Pandia: 23h ago, 139 posts (0%)" src="https://lh3.googleusercontent.com/a/AItbvmnrV8b5BjDdTeBI-5CnO1SD4ylpE-JTK5ggejBO=k-s128" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/4799172/roganjosh"><img  height="18" width="18" alt="roganjosh: 1d ago, 43132 posts (2%)" title="roganjosh: 1d ago, 43132 posts (2%)" src="https://www.gravatar.com/avatar/17539586d5bb4e528d94f3bc4131e6c0?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/523612/karl-knechtel"><img  height="18" width="18" alt="Karl Knechtel: 2d ago, 1777 posts (0%)" title="Karl Knechtel: 2d ago, 1777 posts (0%)" src="https://www.gravatar.com/avatar/4ae512dd708a619496d36b1f681f95e0?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/962190/arne"><img  height="18" width="18" alt="Arne: 5d ago, 7885 posts (0%)" title="Arne: 5d ago, 7885 posts (0%)" src="https://i.stack.imgur.com/sxvRS.png?s=18&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/1440565/code-apprentice"><img  height="18" width="18" alt="Code-Apprentice: 15d ago, 12842 posts (0%)" title="Code-Apprentice: 15d ago, 12842 posts (0%)" src="https://www.gravatar.com/avatar/ec430cc01ef4cf4ae63ebbe9e8596f72?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/7942600/toonarmycaptain"><img  height="18" width="18" alt="toonarmycaptain: 82d ago, 4554 posts (0%)" title="toonarmycaptain: 82d ago, 4554 posts (0%)" src="https://www.gravatar.com/avatar/6ce62068af1e741852d7b96a1555d7ba?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/298479/thiefmaster"><img  height="18" width="18" alt="ThiefMaster: 217d ago, 2547 posts (0%)" title="ThiefMaster: 217d ago, 2547 posts (0%)" src="https://www.gravatar.com/avatar/bc66db28aa7c3fa8e4ce4238b696dee9?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/10035985/andrej-kesely"><img  height="18" width="18" alt="Andrej Kesely: 456d ago, 294 posts (0%)" title="Andrej Kesely: 456d ago, 294 posts (0%)" src="https://lh4.googleusercontent.com/-1WgJ_2yA-78/AAAAAAAAAAI/AAAAAAAAAOA/0CBOlYqYe7M/photo.jpg?sz=128" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/3664422/freek-nortier"><img  height="18" width="18" alt="Freek Nortier: no posts" title="Freek Nortier: no posts" src="https://i.stack.imgur.com/LrLpO.png?s=18&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/12967353/kins"><img  height="18" width="18" alt="Kins: no posts" title="Kins: no posts" src="https://lh4.googleusercontent.com/-VKpkS6MnnWE/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdPrQU5p8YgU1i3sOn4wuCK1CTKkw/photo.jpg?sz=128" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar18" href="/users/16343464/mozway"><img  height="18" width="18" alt="mozway: no posts" title="mozway: no posts" src="https://www.gravatar.com/avatar/0555bd0deb416a320a0069abef08078a?s=18&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+ 
+            --></div>
+        </div>
+ 
+        <div class="room-message-count" title="2018724 all time messages">
+            <a href="/transcript/6">2019k</a>
+        </div>
+        <div class="room-user-count" title="all time users">6684</div>
+        <div class="room-info-link">
+    <a href="/rooms/info/6/python">info</a>
+    </div>
+ 
+    </div>
+
+    <div id="room-17" class="roomcard">
+        <div class="room-header">
+                <div title="Toggle as a favorite room" class="favorite-room-vote"> </div>
+            <h3>
+
+                <span class="room-name" title="JavaScript"><a rel="noreferrer noopener" href="/rooms/17/javascript">JavaScript</a></span>
+            </h3>
+            <img class="small-site-logo" title="Stack Overflow" alt="Stack Overflow" width="16" height="16" src="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=dc" />
+            <div class="room-description" title="Topic: Anything JavaScript, ECMAScript including Node, React, Angular, Vue, etc. Read this: http://javascriptroom.github.io/rules. Before asking inform yourself on the XY problem http://goo.gl/taIqf | Room meta discussions: https://github.com/JavaScriptRoom/culture. How to format code in chat: https://sopython.com/wiki/An_Illustrated_Guide_To_Formatting_Code_In_Chat">Topic: Anything JavaScript, ECMAScript including Node, React, Angular, Vue, etc. Read this: http://javascriptroom.github.io/rules. Before asking inform yourself on the XY problem http://goo.gl/taIqf | Room meta discussions: https://github.com/JavaScriptRoom/culture. How to format code in chat: https://sopython.com/wiki/An_Illustrated_Guide_To_Formatting_Code_In_Chat</div>           
+            <div class="clear-both"></div>
+        </div>
+        <div class="room-details">
+                        <div class="mini-room-chart" title="Typical room activity over a 24-hour period; current time is highlighted">
+                            <div class="mspark" style="height:25px;width:192px">
+<div class="mspbar" style="width:8px;height:2px;left:0px;"></div><div class="mspbar" style="width:8px;height:1px;left:8px;"></div><div class="mspbar" style="width:8px;height:1px;left:24px;"></div><div class="mspbar" style="width:8px;height:1px;left:32px;"></div><div class="mspbar" style="width:8px;height:3px;left:40px;"></div><div class="mspbar" style="width:8px;height:4px;left:48px;"></div><div class="mspbar" style="width:8px;height:14px;left:56px;"></div><div class="mspbar" style="width:8px;height:8px;left:64px;"></div><div class="mspbar" style="width:8px;height:15px;left:72px;"></div><div class="mspbar" style="width:8px;height:21px;left:80px;"></div><div class="mspbar" style="width:8px;height:14px;left:88px;"></div><div class="mspbar" style="width:8px;height:13px;left:96px;"></div><div class="mspbar" style="width:8px;height:8px;left:104px;"></div><div class="mspbar" style="width:8px;height:9px;left:112px;"></div><div class="mspbar" style="width:8px;height:12px;left:120px;"></div><div class="mspbar" style="width:8px;height:12px;left:128px;"></div><div class="mspbar" style="width:8px;height:25px;left:136px;"></div><div class="mspbar" style="width:8px;height:12px;left:144px;"></div><div class="mspbar" style="width:8px;height:14px;left:152px;"></div><div class="mspbar" style="width:8px;height:8px;left:160px;"></div><div class="mspbar" style="width:8px;height:16px;left:168px;"></div><div class="mspbar" style="width:8px;height:3px;left:176px;"></div><div class="mspbar" style="width:8px;height:10px;left:184px;"></div><div class="mspbar now" style="height:25px;left:85px;"></div></div>
+
+                        </div>
+
+            
+            <div class="cycle">
+                <div class="last-activity">2h ago &ndash; <a href="/users/11518920/jamesbot" title="JamesBot">JamesBot</a></div>
+            </div>
+            <div class="room-users" title="10 users present"><!-- 
+                    --><a class="user-gravatar32" href="/users/11518920/jamesbot"><img  height="32" width="32" alt="JamesBot: 2h ago, 6922 posts (0%)" title="JamesBot: 2h ago, 6922 posts (0%)" src="https://i.stack.imgur.com/DHbov.png?s=32&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/3689450/vlaz"><img  height="32" width="32" alt="VLAZ: 2h ago, 9278 posts (0%)" title="VLAZ: 2h ago, 9278 posts (0%)" src="https://i.stack.imgur.com/SXuSRm.png?s=32&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/12573653/lovgrandma"><img  height="32" width="32" alt="lovgrandma: 10h ago, 272 posts (0%)" title="lovgrandma: 10h ago, 272 posts (0%)" src="https://i.stack.imgur.com/q4nAu.jpg?s=32&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/11407695/oleg-valter-is-with-ukraine"><img  height="32" width="32" alt="Oleg Valter is with Ukraine: 11h ago, 2099 posts (0%)" title="Oleg Valter is with Ukraine: 11h ago, 2099 posts (0%)" src="https://www.gravatar.com/avatar/6e780ea997ca2280a7e2db311220a563?s=32&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/400654/kevin-b"><img  height="32" width="32" alt="Kevin B: 14h ago, 60311 posts (1%)" title="Kevin B: 14h ago, 60311 posts (1%)" src="https://i.stack.imgur.com/iwf7D.png?s=32&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/2764866/wietlol"><img  height="32" width="32" alt="Wietlol: 2d ago, 12699 posts (0%)" title="Wietlol: 2d ago, 12699 posts (0%)" src="https://i.stack.imgur.com/cUip8.png?s=32&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/1835379/cerbrus"><img  height="32" width="32" alt="Cerbrus: 2d ago, 18838 posts (0%)" title="Cerbrus: 2d ago, 18838 posts (0%)" src="https://i.stack.imgur.com/i63aC.gif?s=32&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/7886229/jbis"><img  height="32" width="32" alt="JBis: 8d ago, 27519 posts (0%)" title="JBis: 8d ago, 27519 posts (0%)" src="https://i.stack.imgur.com/nLcnP.png?s=32&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/1140368/markus"><img  height="32" width="32" alt="Markus: 12d ago, 392 posts (0%)" title="Markus: 12d ago, 392 posts (0%)" src="https://i.stack.imgur.com/tZuXf.png?s=32&amp;g=1" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+                    --><a class="user-gravatar32" href="/users/298479/thiefmaster"><img  height="32" width="32" alt="ThiefMaster: 175d ago, 9403 posts (0%)" title="ThiefMaster: 175d ago, 9403 posts (0%)" src="https://www.gravatar.com/avatar/bc66db28aa7c3fa8e4ce4238b696dee9?s=32&amp;d=identicon&amp;r=PG" style="opacity:0.15;-moz-opacity:0.15;filter:alpha(opacity=15);" /></a><!--
+ 
+            --></div>
+        </div>
+ 
+        <div class="room-message-count" title="5259560 all time messages">
+            <a href="/transcript/17">5260k</a>
+        </div>
+        <div class="room-user-count" title="all time users">13413</div>
+        <div class="room-info-link">
+    <a href="/rooms/info/17/javascript">info</a>
+    </div>
+ 
+    </div><div class="pager clear-both" >
+<span class="page-numbers current">1</span>
+<a href="?tab=all&sort=active&page=2" title="go to page 2"><span class="page-numbers">2</span></a>
+<a href="?tab=all&sort=active&page=3" title="go to page 3"><span class="page-numbers">3</span></a>
+<a href="?tab=all&sort=active&page=4" title="go to page 4"><span class="page-numbers">4</span></a>
+<a href="?tab=all&sort=active&page=5" title="go to page 5"><span class="page-numbers">5</span></a>
+<span class="page-numbers dots">&hellip;</span>
+<a href="?tab=all&sort=active&page=18" title="go to page 18"><span class="page-numbers">18</span></a>
+<a href="?tab=all&sort=active&page=2" title="go to page 2" rel="next"><span class="page-numbers next"> next</span></a>
+</div>
+<div class="fr" style="padding:5px 6px 0 0; clear:both;">            
+                <a href="?tab=all&sort=active&nohide=true" class="button">show frozen rooms</a>
+            </div></div>
+
+    <div class="clear-both"></div>
+    <input id="fkey" name="fkey" type="hidden" value="778fe586772cbc6c4f37536ec6ef6077" />
+
+        </div>
+    </div>
+    <div id="footer">
+    <div class="footerwrap">
+        <div id="footer-menu">
+            <a href="/faq">faq</a> |
+            <a rel="noopener noreferrer" href="https://stackexchange.com/legal">legal</a> |
+            <a rel="noopener noreferrer" href="https://stackexchange.com/legal/privacy-policy">privacy policy</a> |
+            <a class="mobile-on" href="#">mobile</a>
+        </div>
+        <div id="copyright">
+            site design / logo &copy; 2022 Stack Exchange Inc
+        </div>
+        <div id="svnrev">
+            rev 2022.11.3.944
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
